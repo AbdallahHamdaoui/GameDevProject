@@ -39,9 +39,6 @@ namespace Inception.NewFolder
             bulletList = new List<Bullet>();
             heroIdleAnimation = new Animation[4];
             heroRunAnimation = new Animation[4];
-            //this.heroIdleTexture = heroIdleTexture;
-            //this.heroRunTexture = heroRunTexture;
-            //this.bulletSoundEffect = bulletSoundEffect;
         }
 
         public void LoadContent(ContentManager content)

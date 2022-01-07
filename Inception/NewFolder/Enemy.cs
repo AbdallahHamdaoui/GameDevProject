@@ -1,4 +1,5 @@
-﻿using Microsoft.Xna.Framework;
+﻿using Inception.NewFolder.GameStates.Levels;
+using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Audio;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
@@ -47,7 +48,7 @@ namespace Inception.NewFolder
 
             if (enemyRectangle.Intersects(heroRectangle))
             {
-                //Game1.heroHasLost = true;
+                LevelOne.heroHasLost = true;
             }
 
             enemyPosition.X += enemySpeed;

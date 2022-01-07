@@ -19,10 +19,8 @@ namespace Inception.NewFolder.GameStates.Levels
 
         // Hero
         private Hero hero;
-        private Texture2D heroIdleTexture;
-        private Texture2D heroRunTexture;
         private Rectangle heroStartPoint;
-        private float heroSpeed = 1f;
+        private float heroSpeed = 3f;
         private int heroPoints = 0;
         private Rectangle heroEndPoint;
         private SpriteFont heroHasWon;
@@ -33,14 +31,12 @@ namespace Inception.NewFolder.GameStates.Levels
         private Enemy enemy1;
         private Enemy enemy2;
         private Enemy enemy3;
-        private Texture2D enemyRunTexture;
         private List<Enemy> enemies;
         private List<Rectangle> enemyPathways;
         private SoundEffect enemyDeathSoundEffect;
 
         // Bullet      
         private Texture2D bulletTexture;
-        private SoundEffect bulletSoundEffect;
 
         // Coin
         private List<Coin> coins;
@@ -216,7 +212,7 @@ namespace Inception.NewFolder.GameStates.Levels
                             {
                                 enemies.Remove(enemy);
                                 hero.bulletList.Remove(bullet);
-                                enemyDeathSoundEffect.Play();
+                                //enemyDeathSoundEffect.Play();
                                 heroPoints++;
                                 break;
                             }
