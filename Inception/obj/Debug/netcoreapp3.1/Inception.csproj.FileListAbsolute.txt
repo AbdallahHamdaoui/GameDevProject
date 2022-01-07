@@ -1,0 +1,495 @@
+C:\Users\Abdallah\Desktop\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Cave Tileset\Brown_Tile_Terrain (16 x 16).xnb
+C:\Users\Abdallah\Desktop\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Cave Tileset\full.xnb
+C:\Users\Abdallah\Desktop\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Cave Tileset\Gray_Tile_Terrain (16 x 16).xnb
+C:\Users\Abdallah\Desktop\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Cave Tileset\Scaffolding_and_BG_Parts (16 x 16).xnb
+C:\Users\Abdallah\Desktop\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Cave Tileset\_Complete_static_BG_(288 x 208).xnb
+C:\Users\Abdallah\Desktop\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Common Pick-ups\Coin (16 x 16).xnb
+C:\Users\Abdallah\Desktop\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Common Pick-ups\Health_Kit (16 x 16).xnb
+C:\Users\Abdallah\Desktop\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Common Pick-ups\Heart_Spin (16 x 16).xnb
+C:\Users\Abdallah\Desktop\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Common Pick-ups\Small_Coin (16 x 16).xnb
+C:\Users\Abdallah\Desktop\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Common Pick-ups\Treasure_Chest (32 x 16).xnb
+C:\Users\Abdallah\Desktop\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Common Pick-ups\Wrapped_Presents (16 x 16).xnb
+C:\Users\Abdallah\Desktop\Inception\Inception\bin\Debug\netcoreapp3.1\Content\sfx\collect.xnb
+C:\Users\Abdallah\Desktop\Inception\Inception\bin\Debug\netcoreapp3.1\Content\sfx\enemyDie.xnb
+C:\Users\Abdallah\Desktop\Inception\Inception\bin\Debug\netcoreapp3.1\Content\sfx\shoot.xnb
+C:\Users\Abdallah\Desktop\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\1 - Agent_Mike_Bullet (16 x 16).xnb
+C:\Users\Abdallah\Desktop\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\1 - Agent_Mike_Hurt (32 x 32).xnb
+C:\Users\Abdallah\Desktop\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\1 - Agent_Mike_Idle (32 x 32).xnb
+C:\Users\Abdallah\Desktop\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\1 - Agent_Mike_Jump_&_Falling (32 x 32).xnb
+C:\Users\Abdallah\Desktop\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\1 - Agent_Mike_Running (32 x 32).xnb
+C:\Users\Abdallah\Desktop\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\10 - Blankey_Floating (32 x 32).xnb
+C:\Users\Abdallah\Desktop\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\10 - Blankey_Hurt (32 x 32).xnb
+C:\Users\Abdallah\Desktop\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\2 - Martian_Red_Hurt (32 x 32).xnb
+C:\Users\Abdallah\Desktop\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\2 - Martian_Red_Idle (32 x 32).xnb
+C:\Users\Abdallah\Desktop\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\2 - Martian_Red_Running (32 x 32).xnb
+C:\Users\Abdallah\Desktop\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\3 - Hermie_Crawling (32 x 32).xnb
+C:\Users\Abdallah\Desktop\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\3 - Hermie_Hiding_&_Peek (32 x 32).xnb
+C:\Users\Abdallah\Desktop\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\3 - Hermie_Idle (32 x 32).xnb
+C:\Users\Abdallah\Desktop\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\4 - Ballooney_Flying (32 x 32).xnb
+C:\Users\Abdallah\Desktop\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\5 - Robot_Walky_Hurt (32 x 32).xnb
+C:\Users\Abdallah\Desktop\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\5 - Robot_Walky_Idle (32 x 32).xnb
+C:\Users\Abdallah\Desktop\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\5 - Robot_Walky_Movement (32 x 32).xnb
+C:\Users\Abdallah\Desktop\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\6 - Jumpy_Lumpy_Hurt (32 x 32).xnb
+C:\Users\Abdallah\Desktop\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\6 - Jumpy_Lumpy_Idle (32 x 32).xnb
+C:\Users\Abdallah\Desktop\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\6 - Jumpy_Lumpy_Leaping_&_Falling (32 x 32).xnb
+C:\Users\Abdallah\Desktop\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\7 - Orchid_Owl_Flying (32 x 32).xnb
+C:\Users\Abdallah\Desktop\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\7 - Orchid_Owl_Hurt (32 x 32).xnb
+C:\Users\Abdallah\Desktop\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\7 - Orchid_Owl_Idle (32 x 32).xnb
+C:\Users\Abdallah\Desktop\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\8 - Roach_Hurt (32 x 32).xnb
+C:\Users\Abdallah\Desktop\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\8 - Roach_Idle (32 x 32).xnb
+C:\Users\Abdallah\Desktop\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\8 - Roach_Running (32 x 32).xnb
+C:\Users\Abdallah\Desktop\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\9 - Mr._Circuit_Hurt (32 x 32).xnb
+C:\Users\Abdallah\Desktop\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\9 - Mr._Circuit_Idle (32 x 32).xnb
+C:\Users\Abdallah\Desktop\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\9 - Mr._Circuit_Running (32 x 32).xnb
+C:\Users\Abdallah\Desktop\Inception\Inception\bin\Debug\netcoreapp3.1\Inception.exe
+C:\Users\Abdallah\Desktop\Inception\Inception\bin\Debug\netcoreapp3.1\Inception.deps.json
+C:\Users\Abdallah\Desktop\Inception\Inception\bin\Debug\netcoreapp3.1\Inception.runtimeconfig.json
+C:\Users\Abdallah\Desktop\Inception\Inception\bin\Debug\netcoreapp3.1\Inception.runtimeconfig.dev.json
+C:\Users\Abdallah\Desktop\Inception\Inception\bin\Debug\netcoreapp3.1\Inception.dll
+C:\Users\Abdallah\Desktop\Inception\Inception\bin\Debug\netcoreapp3.1\Inception.pdb
+C:\Users\Abdallah\Desktop\Inception\Inception\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\Abdallah\Desktop\Inception\Inception\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Abdallah\Desktop\Inception\Inception\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Abdallah\Desktop\Inception\Inception\bin\Debug\netcoreapp3.1\Microsoft.VisualBasic.dll
+C:\Users\Abdallah\Desktop\Inception\Inception\bin\Debug\netcoreapp3.1\MonoGame.Framework.dll
+C:\Users\Abdallah\Desktop\Inception\Inception\bin\Debug\netcoreapp3.1\SharpDX.dll
+C:\Users\Abdallah\Desktop\Inception\Inception\bin\Debug\netcoreapp3.1\SharpDX.Direct2D1.dll
+C:\Users\Abdallah\Desktop\Inception\Inception\bin\Debug\netcoreapp3.1\SharpDX.Direct3D11.dll
+C:\Users\Abdallah\Desktop\Inception\Inception\bin\Debug\netcoreapp3.1\SharpDX.Direct3D9.dll
+C:\Users\Abdallah\Desktop\Inception\Inception\bin\Debug\netcoreapp3.1\SharpDX.DXGI.dll
+C:\Users\Abdallah\Desktop\Inception\Inception\bin\Debug\netcoreapp3.1\SharpDX.Mathematics.dll
+C:\Users\Abdallah\Desktop\Inception\Inception\bin\Debug\netcoreapp3.1\SharpDX.MediaFoundation.dll
+C:\Users\Abdallah\Desktop\Inception\Inception\bin\Debug\netcoreapp3.1\SharpDX.XAudio2.dll
+C:\Users\Abdallah\Desktop\Inception\Inception\bin\Debug\netcoreapp3.1\SharpDX.XInput.dll
+C:\Users\Abdallah\Desktop\Inception\Inception\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libuv.so
+C:\Users\Abdallah\Desktop\Inception\Inception\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libuv.so
+C:\Users\Abdallah\Desktop\Inception\Inception\bin\Debug\netcoreapp3.1\runtimes\opensuse-x64\native\libuv.so
+C:\Users\Abdallah\Desktop\Inception\Inception\bin\Debug\netcoreapp3.1\runtimes\osx\native\libuv.dylib
+C:\Users\Abdallah\Desktop\Inception\Inception\bin\Debug\netcoreapp3.1\runtimes\rhel-x64\native\libuv.so
+C:\Users\Abdallah\Desktop\Inception\Inception\bin\Debug\netcoreapp3.1\runtimes\win7-arm\native\libuv.dll
+C:\Users\Abdallah\Desktop\Inception\Inception\bin\Debug\netcoreapp3.1\runtimes\win7-x64\native\libuv.dll
+C:\Users\Abdallah\Desktop\Inception\Inception\bin\Debug\netcoreapp3.1\runtimes\win7-x86\native\libuv.dll
+C:\Users\Abdallah\Desktop\Inception\Inception\obj\Debug\netcoreapp3.1\Inception.csproj.AssemblyReference.cache
+C:\Users\Abdallah\Desktop\Inception\Inception\obj\Debug\netcoreapp3.1\Inception.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abdallah\Desktop\Inception\Inception\obj\Debug\netcoreapp3.1\Inception.AssemblyInfoInputs.cache
+C:\Users\Abdallah\Desktop\Inception\Inception\obj\Debug\netcoreapp3.1\Inception.AssemblyInfo.cs
+C:\Users\Abdallah\Desktop\Inception\Inception\obj\Debug\netcoreapp3.1\Inception.csproj.CoreCompileInputs.cache
+C:\Users\Abdallah\Desktop\Inception\Inception\obj\Debug\netcoreapp3.1\Inception.csproj.CopyComplete
+C:\Users\Abdallah\Desktop\Inception\Inception\obj\Debug\netcoreapp3.1\Inception.dll
+C:\Users\Abdallah\Desktop\Inception\Inception\obj\Debug\netcoreapp3.1\Inception.pdb
+C:\Users\Abdallah\Desktop\Inception\Inception\obj\Debug\netcoreapp3.1\Inception.genruntimeconfig.cache
+C:\Users\Abdallah\Desktop\Inception\Inception\bin\Debug\netcoreapp3.1\Content\levelOneBackground.tmx
+C:\Users\Abdallah\Desktop\Inception\Inception\bin\Debug\netcoreapp3.1\Content\LevelOneBackground.xnb
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Cave Tileset\Brown_Tile_Terrain (16 x 16).xnb
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Cave Tileset\full.xnb
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Cave Tileset\Gray_Tile_Terrain (16 x 16).xnb
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Cave Tileset\Scaffolding_and_BG_Parts (16 x 16).xnb
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Cave Tileset\_Complete_static_BG_(288 x 208).xnb
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Common Pick-ups\Coin (16 x 16).xnb
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Common Pick-ups\Health_Kit (16 x 16).xnb
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Common Pick-ups\Heart_Spin (16 x 16).xnb
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Common Pick-ups\Small_Coin (16 x 16).xnb
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Common Pick-ups\Treasure_Chest (32 x 16).xnb
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Common Pick-ups\Wrapped_Presents (16 x 16).xnb
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\levelOneBackground.tmx
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\LevelOneBackground.xnb
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\sfx\collect.xnb
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\sfx\enemyDie.xnb
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\sfx\shoot.xnb
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\1 - Agent_Mike_Bullet (16 x 16).xnb
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\1 - Agent_Mike_Hurt (32 x 32).xnb
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\1 - Agent_Mike_Idle (32 x 32).xnb
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\1 - Agent_Mike_Jump_&_Falling (32 x 32).xnb
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\1 - Agent_Mike_Running (32 x 32).xnb
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\10 - Blankey_Floating (32 x 32).xnb
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\10 - Blankey_Hurt (32 x 32).xnb
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\2 - Martian_Red_Hurt (32 x 32).xnb
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\2 - Martian_Red_Idle (32 x 32).xnb
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\2 - Martian_Red_Running (32 x 32).xnb
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\3 - Hermie_Crawling (32 x 32).xnb
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\3 - Hermie_Hiding_&_Peek (32 x 32).xnb
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\3 - Hermie_Idle (32 x 32).xnb
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\4 - Ballooney_Flying (32 x 32).xnb
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\5 - Robot_Walky_Hurt (32 x 32).xnb
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\5 - Robot_Walky_Idle (32 x 32).xnb
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\5 - Robot_Walky_Movement (32 x 32).xnb
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\6 - Jumpy_Lumpy_Hurt (32 x 32).xnb
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\6 - Jumpy_Lumpy_Idle (32 x 32).xnb
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\6 - Jumpy_Lumpy_Leaping_&_Falling (32 x 32).xnb
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\7 - Orchid_Owl_Flying (32 x 32).xnb
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\7 - Orchid_Owl_Hurt (32 x 32).xnb
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\7 - Orchid_Owl_Idle (32 x 32).xnb
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\8 - Roach_Hurt (32 x 32).xnb
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\8 - Roach_Idle (32 x 32).xnb
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\8 - Roach_Running (32 x 32).xnb
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\9 - Mr._Circuit_Hurt (32 x 32).xnb
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\9 - Mr._Circuit_Idle (32 x 32).xnb
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\9 - Mr._Circuit_Running (32 x 32).xnb
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Inception.exe
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Inception.deps.json
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Inception.runtimeconfig.json
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Inception.runtimeconfig.dev.json
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Inception.dll
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Inception.pdb
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Microsoft.VisualBasic.dll
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\MonoGame.Framework.dll
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\SharpDX.dll
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\SharpDX.Direct2D1.dll
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\SharpDX.Direct3D11.dll
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\SharpDX.Direct3D9.dll
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\SharpDX.DXGI.dll
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\SharpDX.Mathematics.dll
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\SharpDX.MediaFoundation.dll
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\SharpDX.XAudio2.dll
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\SharpDX.XInput.dll
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libuv.so
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libuv.so
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\runtimes\opensuse-x64\native\libuv.so
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\runtimes\osx\native\libuv.dylib
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\runtimes\rhel-x64\native\libuv.so
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\runtimes\win7-arm\native\libuv.dll
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\runtimes\win7-x64\native\libuv.dll
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\runtimes\win7-x86\native\libuv.dll
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\obj\Debug\netcoreapp3.1\Inception.csproj.AssemblyReference.cache
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\obj\Debug\netcoreapp3.1\Inception.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\obj\Debug\netcoreapp3.1\Inception.AssemblyInfoInputs.cache
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\obj\Debug\netcoreapp3.1\Inception.AssemblyInfo.cs
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\obj\Debug\netcoreapp3.1\Inception.csproj.CoreCompileInputs.cache
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\obj\Debug\netcoreapp3.1\Inception.csproj.CopyComplete
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\obj\Debug\netcoreapp3.1\Inception.dll
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\obj\Debug\netcoreapp3.1\Inception.pdb
+C:\Users\kittycat\Downloads\Inception\Inception\Inception\obj\Debug\netcoreapp3.1\Inception.genruntimeconfig.cache
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Cave Tileset\Brown_Tile_Terrain (16 x 16).xnb
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Cave Tileset\full.xnb
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Cave Tileset\Gray_Tile_Terrain (16 x 16).xnb
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Cave Tileset\Scaffolding_and_BG_Parts (16 x 16).xnb
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Cave Tileset\_Complete_static_BG_(288 x 208).xnb
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Common Pick-ups\Coin (16 x 16).xnb
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Common Pick-ups\Health_Kit (16 x 16).xnb
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Common Pick-ups\Heart_Spin (16 x 16).xnb
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Common Pick-ups\Small_Coin (16 x 16).xnb
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Common Pick-ups\Treasure_Chest (32 x 16).xnb
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Common Pick-ups\Wrapped_Presents (16 x 16).xnb
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\levelOneBackground.tmx
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\LevelOneBackground.xnb
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\sfx\collect.xnb
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\sfx\enemyDie.xnb
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\sfx\shoot.xnb
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\1 - Agent_Mike_Bullet (16 x 16).xnb
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\1 - Agent_Mike_Hurt (32 x 32).xnb
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\1 - Agent_Mike_Idle (32 x 32).xnb
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\1 - Agent_Mike_Jump_&_Falling (32 x 32).xnb
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\1 - Agent_Mike_Running (32 x 32).xnb
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\10 - Blankey_Floating (32 x 32).xnb
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\10 - Blankey_Hurt (32 x 32).xnb
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\2 - Martian_Red_Hurt (32 x 32).xnb
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\2 - Martian_Red_Idle (32 x 32).xnb
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\2 - Martian_Red_Running (32 x 32).xnb
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\3 - Hermie_Crawling (32 x 32).xnb
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\3 - Hermie_Hiding_&_Peek (32 x 32).xnb
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\3 - Hermie_Idle (32 x 32).xnb
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\4 - Ballooney_Flying (32 x 32).xnb
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\5 - Robot_Walky_Hurt (32 x 32).xnb
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\5 - Robot_Walky_Idle (32 x 32).xnb
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\5 - Robot_Walky_Movement (32 x 32).xnb
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\6 - Jumpy_Lumpy_Hurt (32 x 32).xnb
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\6 - Jumpy_Lumpy_Idle (32 x 32).xnb
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\6 - Jumpy_Lumpy_Leaping_&_Falling (32 x 32).xnb
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\7 - Orchid_Owl_Flying (32 x 32).xnb
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\7 - Orchid_Owl_Hurt (32 x 32).xnb
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\7 - Orchid_Owl_Idle (32 x 32).xnb
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\8 - Roach_Hurt (32 x 32).xnb
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\8 - Roach_Idle (32 x 32).xnb
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\8 - Roach_Running (32 x 32).xnb
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\9 - Mr._Circuit_Hurt (32 x 32).xnb
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\9 - Mr._Circuit_Idle (32 x 32).xnb
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\9 - Mr._Circuit_Running (32 x 32).xnb
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Inception.exe
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Inception.deps.json
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Inception.runtimeconfig.json
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Inception.runtimeconfig.dev.json
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Inception.dll
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Inception.pdb
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Microsoft.VisualBasic.dll
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\MonoGame.Framework.dll
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\SharpDX.dll
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\SharpDX.Direct2D1.dll
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\SharpDX.Direct3D11.dll
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\SharpDX.Direct3D9.dll
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\SharpDX.DXGI.dll
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\SharpDX.Mathematics.dll
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\SharpDX.MediaFoundation.dll
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\SharpDX.XAudio2.dll
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\SharpDX.XInput.dll
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libuv.so
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libuv.so
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\runtimes\opensuse-x64\native\libuv.so
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\runtimes\osx\native\libuv.dylib
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\runtimes\rhel-x64\native\libuv.so
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\runtimes\win7-arm\native\libuv.dll
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\runtimes\win7-x64\native\libuv.dll
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\runtimes\win7-x86\native\libuv.dll
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\obj\Debug\netcoreapp3.1\Inception.csproj.AssemblyReference.cache
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\obj\Debug\netcoreapp3.1\Inception.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\obj\Debug\netcoreapp3.1\Inception.AssemblyInfoInputs.cache
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\obj\Debug\netcoreapp3.1\Inception.AssemblyInfo.cs
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\obj\Debug\netcoreapp3.1\Inception.csproj.CoreCompileInputs.cache
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\obj\Debug\netcoreapp3.1\Inception.csproj.CopyComplete
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\obj\Debug\netcoreapp3.1\Inception.dll
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\obj\Debug\netcoreapp3.1\Inception.pdb
+C:\Users\Abdallah\Downloads\Inception\Inception\Inception\Inception\obj\Debug\netcoreapp3.1\Inception.genruntimeconfig.cache
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\levelOneBackground.tmx
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Cave Tileset\Brown_Tile_Terrain (16 x 16).xnb
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Cave Tileset\full.xnb
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Cave Tileset\Gray_Tile_Terrain (16 x 16).xnb
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Cave Tileset\Scaffolding_and_BG_Parts (16 x 16).xnb
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Cave Tileset\_Complete_static_BG_(288 x 208).xnb
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Common Pick-ups\Coin (16 x 16).xnb
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Common Pick-ups\Health_Kit (16 x 16).xnb
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Common Pick-ups\Heart_Spin (16 x 16).xnb
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Common Pick-ups\Small_Coin (16 x 16).xnb
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Common Pick-ups\Treasure_Chest (32 x 16).xnb
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Common Pick-ups\Wrapped_Presents (16 x 16).xnb
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\sfx\collect.xnb
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\sfx\enemyDie.xnb
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\sfx\shoot.xnb
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\1 - Agent_Mike_Bullet (16 x 16).xnb
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\1 - Agent_Mike_Hurt (32 x 32).xnb
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\1 - Agent_Mike_Idle (32 x 32).xnb
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\1 - Agent_Mike_Jump_&_Falling (32 x 32).xnb
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\1 - Agent_Mike_Running (32 x 32).xnb
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\10 - Blankey_Floating (32 x 32).xnb
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\10 - Blankey_Hurt (32 x 32).xnb
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\2 - Martian_Red_Hurt (32 x 32).xnb
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\2 - Martian_Red_Idle (32 x 32).xnb
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\2 - Martian_Red_Running (32 x 32).xnb
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\3 - Hermie_Crawling (32 x 32).xnb
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\3 - Hermie_Hiding_&_Peek (32 x 32).xnb
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\3 - Hermie_Idle (32 x 32).xnb
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\4 - Ballooney_Flying (32 x 32).xnb
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\5 - Robot_Walky_Hurt (32 x 32).xnb
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\5 - Robot_Walky_Idle (32 x 32).xnb
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\5 - Robot_Walky_Movement (32 x 32).xnb
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\6 - Jumpy_Lumpy_Hurt (32 x 32).xnb
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\6 - Jumpy_Lumpy_Idle (32 x 32).xnb
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\6 - Jumpy_Lumpy_Leaping_&_Falling (32 x 32).xnb
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\7 - Orchid_Owl_Flying (32 x 32).xnb
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\7 - Orchid_Owl_Hurt (32 x 32).xnb
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\7 - Orchid_Owl_Idle (32 x 32).xnb
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\8 - Roach_Hurt (32 x 32).xnb
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\8 - Roach_Idle (32 x 32).xnb
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\8 - Roach_Running (32 x 32).xnb
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\9 - Mr._Circuit_Hurt (32 x 32).xnb
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\9 - Mr._Circuit_Idle (32 x 32).xnb
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\Sprite Pack 4\9 - Mr._Circuit_Running (32 x 32).xnb
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Inception.exe
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Inception.deps.json
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Inception.runtimeconfig.json
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Inception.runtimeconfig.dev.json
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Inception.dll
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Inception.pdb
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Microsoft.VisualBasic.dll
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\MonoGame.Framework.dll
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\SharpDX.dll
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\SharpDX.Direct2D1.dll
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\SharpDX.Direct3D11.dll
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\SharpDX.Direct3D9.dll
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\SharpDX.DXGI.dll
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\SharpDX.Mathematics.dll
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\SharpDX.MediaFoundation.dll
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\SharpDX.XAudio2.dll
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\SharpDX.XInput.dll
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libuv.so
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libuv.so
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\runtimes\opensuse-x64\native\libuv.so
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\runtimes\osx\native\libuv.dylib
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\runtimes\rhel-x64\native\libuv.so
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\runtimes\win7-arm\native\libuv.dll
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\runtimes\win7-x64\native\libuv.dll
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\runtimes\win7-x86\native\libuv.dll
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\obj\Debug\netcoreapp3.1\Inception.csproj.AssemblyReference.cache
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\obj\Debug\netcoreapp3.1\Inception.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\obj\Debug\netcoreapp3.1\Inception.AssemblyInfoInputs.cache
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\obj\Debug\netcoreapp3.1\Inception.AssemblyInfo.cs
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\obj\Debug\netcoreapp3.1\Inception.csproj.CoreCompileInputs.cache
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\obj\Debug\netcoreapp3.1\Inception.csproj.CopyComplete
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\obj\Debug\netcoreapp3.1\Inception.dll
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\obj\Debug\netcoreapp3.1\Inception.pdb
+C:\Users\Abdallah\Desktop\AP21-22\Inception\Inception\Inception\Inception\Inception\obj\Debug\netcoreapp3.1\Inception.genruntimeconfig.cache
+C:\Users\Abdallah\Desktop\AP21-22\Semester 3\Game Development\Praktijk\Inception\Inception\bin\Debug\netcoreapp3.1\Inception.exe
+C:\Users\Abdallah\Desktop\AP21-22\Semester 3\Game Development\Praktijk\Inception\Inception\bin\Debug\netcoreapp3.1\Inception.deps.json
+C:\Users\Abdallah\Desktop\AP21-22\Semester 3\Game Development\Praktijk\Inception\Inception\bin\Debug\netcoreapp3.1\Inception.runtimeconfig.json
+C:\Users\Abdallah\Desktop\AP21-22\Semester 3\Game Development\Praktijk\Inception\Inception\bin\Debug\netcoreapp3.1\Inception.runtimeconfig.dev.json
+C:\Users\Abdallah\Desktop\AP21-22\Semester 3\Game Development\Praktijk\Inception\Inception\bin\Debug\netcoreapp3.1\Inception.dll
+C:\Users\Abdallah\Desktop\AP21-22\Semester 3\Game Development\Praktijk\Inception\Inception\bin\Debug\netcoreapp3.1\Inception.pdb
+C:\Users\Abdallah\Desktop\AP21-22\Semester 3\Game Development\Praktijk\Inception\Inception\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\Abdallah\Desktop\AP21-22\Semester 3\Game Development\Praktijk\Inception\Inception\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Abdallah\Desktop\AP21-22\Semester 3\Game Development\Praktijk\Inception\Inception\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Abdallah\Desktop\AP21-22\Semester 3\Game Development\Praktijk\Inception\Inception\bin\Debug\netcoreapp3.1\Microsoft.VisualBasic.dll
+C:\Users\Abdallah\Desktop\AP21-22\Semester 3\Game Development\Praktijk\Inception\Inception\bin\Debug\netcoreapp3.1\MonoGame.Framework.dll
+C:\Users\Abdallah\Desktop\AP21-22\Semester 3\Game Development\Praktijk\Inception\Inception\bin\Debug\netcoreapp3.1\SharpDX.dll
+C:\Users\Abdallah\Desktop\AP21-22\Semester 3\Game Development\Praktijk\Inception\Inception\bin\Debug\netcoreapp3.1\SharpDX.Direct2D1.dll
+C:\Users\Abdallah\Desktop\AP21-22\Semester 3\Game Development\Praktijk\Inception\Inception\bin\Debug\netcoreapp3.1\SharpDX.Direct3D11.dll
+C:\Users\Abdallah\Desktop\AP21-22\Semester 3\Game Development\Praktijk\Inception\Inception\bin\Debug\netcoreapp3.1\SharpDX.Direct3D9.dll
+C:\Users\Abdallah\Desktop\AP21-22\Semester 3\Game Development\Praktijk\Inception\Inception\bin\Debug\netcoreapp3.1\SharpDX.DXGI.dll
+C:\Users\Abdallah\Desktop\AP21-22\Semester 3\Game Development\Praktijk\Inception\Inception\bin\Debug\netcoreapp3.1\SharpDX.Mathematics.dll
+C:\Users\Abdallah\Desktop\AP21-22\Semester 3\Game Development\Praktijk\Inception\Inception\bin\Debug\netcoreapp3.1\SharpDX.MediaFoundation.dll
+C:\Users\Abdallah\Desktop\AP21-22\Semester 3\Game Development\Praktijk\Inception\Inception\bin\Debug\netcoreapp3.1\SharpDX.XAudio2.dll
+C:\Users\Abdallah\Desktop\AP21-22\Semester 3\Game Development\Praktijk\Inception\Inception\bin\Debug\netcoreapp3.1\SharpDX.XInput.dll
+C:\Users\Abdallah\Desktop\AP21-22\Semester 3\Game Development\Praktijk\Inception\Inception\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libuv.so
+C:\Users\Abdallah\Desktop\AP21-22\Semester 3\Game Development\Praktijk\Inception\Inception\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libuv.so
+C:\Users\Abdallah\Desktop\AP21-22\Semester 3\Game Development\Praktijk\Inception\Inception\bin\Debug\netcoreapp3.1\runtimes\opensuse-x64\native\libuv.so
+C:\Users\Abdallah\Desktop\AP21-22\Semester 3\Game Development\Praktijk\Inception\Inception\bin\Debug\netcoreapp3.1\runtimes\osx\native\libuv.dylib
+C:\Users\Abdallah\Desktop\AP21-22\Semester 3\Game Development\Praktijk\Inception\Inception\bin\Debug\netcoreapp3.1\runtimes\rhel-x64\native\libuv.so
+C:\Users\Abdallah\Desktop\AP21-22\Semester 3\Game Development\Praktijk\Inception\Inception\bin\Debug\netcoreapp3.1\runtimes\win7-arm\native\libuv.dll
+C:\Users\Abdallah\Desktop\AP21-22\Semester 3\Game Development\Praktijk\Inception\Inception\bin\Debug\netcoreapp3.1\runtimes\win7-x64\native\libuv.dll
+C:\Users\Abdallah\Desktop\AP21-22\Semester 3\Game Development\Praktijk\Inception\Inception\bin\Debug\netcoreapp3.1\runtimes\win7-x86\native\libuv.dll
+C:\Users\Abdallah\Desktop\AP21-22\Semester 3\Game Development\Praktijk\Inception\Inception\obj\Debug\netcoreapp3.1\Inception.csproj.AssemblyReference.cache
+C:\Users\Abdallah\Desktop\AP21-22\Semester 3\Game Development\Praktijk\Inception\Inception\obj\Debug\netcoreapp3.1\Inception.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abdallah\Desktop\AP21-22\Semester 3\Game Development\Praktijk\Inception\Inception\obj\Debug\netcoreapp3.1\Inception.AssemblyInfoInputs.cache
+C:\Users\Abdallah\Desktop\AP21-22\Semester 3\Game Development\Praktijk\Inception\Inception\obj\Debug\netcoreapp3.1\Inception.AssemblyInfo.cs
+C:\Users\Abdallah\Desktop\AP21-22\Semester 3\Game Development\Praktijk\Inception\Inception\obj\Debug\netcoreapp3.1\Inception.csproj.CoreCompileInputs.cache
+C:\Users\Abdallah\Desktop\AP21-22\Semester 3\Game Development\Praktijk\Inception\Inception\obj\Debug\netcoreapp3.1\Inception.csproj.CopyComplete
+C:\Users\Abdallah\Desktop\AP21-22\Semester 3\Game Development\Praktijk\Inception\Inception\obj\Debug\netcoreapp3.1\Inception.dll
+C:\Users\Abdallah\Desktop\AP21-22\Semester 3\Game Development\Praktijk\Inception\Inception\obj\Debug\netcoreapp3.1\Inception.pdb
+C:\Users\Abdallah\Desktop\AP21-22\Semester 3\Game Development\Praktijk\Inception\Inception\obj\Debug\netcoreapp3.1\Inception.genruntimeconfig.cache
+C:\Users\Abdallah\Desktop\AP21-22\Semester 3\Game Development\Praktijk\Inception\Inception\bin\Debug\netcoreapp3.1\Content\audio\deathSound.xnb
+C:\Users\Abdallah\Desktop\AP21-22\Semester 3\Game Development\Praktijk\Inception\Inception\bin\Debug\netcoreapp3.1\Content\audio\pointSound.xnb
+C:\Users\Abdallah\Desktop\AP21-22\Semester 3\Game Development\Praktijk\Inception\Inception\bin\Debug\netcoreapp3.1\Content\audio\shootSound.xnb
+C:\Users\Abdallah\Desktop\AP21-22\Semester 3\Game Development\Praktijk\Inception\Inception\bin\Debug\netcoreapp3.1\Content\background\LevelOneBackground.tmx
+C:\Users\Abdallah\Desktop\AP21-22\Semester 3\Game Development\Praktijk\Inception\Inception\bin\Debug\netcoreapp3.1\Content\background\LevelTwoBackground.tmx
+C:\Users\Abdallah\Desktop\AP21-22\Semester 3\Game Development\Praktijk\Inception\Inception\bin\Debug\netcoreapp3.1\Content\background\tileset.xnb
+C:\Users\Abdallah\Desktop\AP21-22\Semester 3\Game Development\Praktijk\Inception\Inception\bin\Debug\netcoreapp3.1\Content\images\bullet.xnb
+C:\Users\Abdallah\Desktop\AP21-22\Semester 3\Game Development\Praktijk\Inception\Inception\bin\Debug\netcoreapp3.1\Content\images\coin.xnb
+C:\Users\Abdallah\Desktop\AP21-22\Semester 3\Game Development\Praktijk\Inception\Inception\bin\Debug\netcoreapp3.1\Content\images\heroFall.xnb
+C:\Users\Abdallah\Desktop\AP21-22\Semester 3\Game Development\Praktijk\Inception\Inception\bin\Debug\netcoreapp3.1\Content\images\heroHurt.xnb
+C:\Users\Abdallah\Desktop\AP21-22\Semester 3\Game Development\Praktijk\Inception\Inception\bin\Debug\netcoreapp3.1\Content\images\heroIdle.xnb
+C:\Users\Abdallah\Desktop\AP21-22\Semester 3\Game Development\Praktijk\Inception\Inception\bin\Debug\netcoreapp3.1\Content\images\heroJump.xnb
+C:\Users\Abdallah\Desktop\AP21-22\Semester 3\Game Development\Praktijk\Inception\Inception\bin\Debug\netcoreapp3.1\Content\images\heroRun.xnb
+C:\Users\Abdallah\Desktop\AP21-22\Semester 3\Game Development\Praktijk\Inception\Inception\bin\Debug\netcoreapp3.1\Content\background\full.xnb
+C:\Users\Abdallah\Desktop\AP21-22\Semester 3\Game Development\Praktijk\Inception\Inception\bin\Debug\netcoreapp3.1\Content\background\backgroundLevelOne.tmx
+C:\Users\Abdallah\Desktop\AP21-22\Semester 3\Game Development\Praktijk\Inception\Inception\bin\Debug\netcoreapp3.1\Content\images\enemyOneRun.xnb
+C:\Users\Abdallah\Desktop\AP21-22\Semester 3\Game Development\Praktijk\Inception\Inception\bin\Debug\netcoreapp3.1\Content\WinScreen.xnb
+C:\Users\Abdallah\Desktop\AP21-22\Semester 3\Game Development\Praktijk\Inception\Inception\bin\Debug\netcoreapp3.1\Content\background\backgroundLevelTwo.tmx
+C:\Users\Arne_\Downloads\InceptionOriginal\Inception\Inception\bin\Debug\netcoreapp3.1\Content\background\backgroundLevelOne.tmx
+C:\Users\Arne_\Downloads\InceptionOriginal\Inception\Inception\bin\Debug\netcoreapp3.1\Content\background\backgroundLevelTwo.tmx
+C:\Users\Arne_\Downloads\InceptionOriginal\Inception\Inception\bin\Debug\netcoreapp3.1\Content\background\LevelOneBackground.tmx
+C:\Users\Arne_\Downloads\InceptionOriginal\Inception\Inception\bin\Debug\netcoreapp3.1\Content\background\LevelTwoBackground.tmx
+C:\Users\Arne_\Downloads\InceptionOriginal\Inception\Inception\bin\Debug\netcoreapp3.1\Content\background\tileset.xnb
+C:\Users\Arne_\Downloads\InceptionOriginal\Inception\Inception\bin\Debug\netcoreapp3.1\Content\audio\deathSound.xnb
+C:\Users\Arne_\Downloads\InceptionOriginal\Inception\Inception\bin\Debug\netcoreapp3.1\Content\audio\pointSound.xnb
+C:\Users\Arne_\Downloads\InceptionOriginal\Inception\Inception\bin\Debug\netcoreapp3.1\Content\audio\shootSound.xnb
+C:\Users\Arne_\Downloads\InceptionOriginal\Inception\Inception\bin\Debug\netcoreapp3.1\Content\background\full.xnb
+C:\Users\Arne_\Downloads\InceptionOriginal\Inception\Inception\bin\Debug\netcoreapp3.1\Content\images\bullet.xnb
+C:\Users\Arne_\Downloads\InceptionOriginal\Inception\Inception\bin\Debug\netcoreapp3.1\Content\images\coin.xnb
+C:\Users\Arne_\Downloads\InceptionOriginal\Inception\Inception\bin\Debug\netcoreapp3.1\Content\images\enemyOneRun.xnb
+C:\Users\Arne_\Downloads\InceptionOriginal\Inception\Inception\bin\Debug\netcoreapp3.1\Content\images\heroFall.xnb
+C:\Users\Arne_\Downloads\InceptionOriginal\Inception\Inception\bin\Debug\netcoreapp3.1\Content\images\heroHurt.xnb
+C:\Users\Arne_\Downloads\InceptionOriginal\Inception\Inception\bin\Debug\netcoreapp3.1\Content\images\heroIdle.xnb
+C:\Users\Arne_\Downloads\InceptionOriginal\Inception\Inception\bin\Debug\netcoreapp3.1\Content\images\heroJump.xnb
+C:\Users\Arne_\Downloads\InceptionOriginal\Inception\Inception\bin\Debug\netcoreapp3.1\Content\images\heroRun.xnb
+C:\Users\Arne_\Downloads\InceptionOriginal\Inception\Inception\bin\Debug\netcoreapp3.1\Content\WinScreen.xnb
+C:\Users\Arne_\Downloads\InceptionOriginal\Inception\Inception\bin\Debug\netcoreapp3.1\Inception.exe
+C:\Users\Arne_\Downloads\InceptionOriginal\Inception\Inception\bin\Debug\netcoreapp3.1\Inception.deps.json
+C:\Users\Arne_\Downloads\InceptionOriginal\Inception\Inception\bin\Debug\netcoreapp3.1\Inception.runtimeconfig.json
+C:\Users\Arne_\Downloads\InceptionOriginal\Inception\Inception\bin\Debug\netcoreapp3.1\Inception.runtimeconfig.dev.json
+C:\Users\Arne_\Downloads\InceptionOriginal\Inception\Inception\bin\Debug\netcoreapp3.1\Inception.dll
+C:\Users\Arne_\Downloads\InceptionOriginal\Inception\Inception\bin\Debug\netcoreapp3.1\Inception.pdb
+C:\Users\Arne_\Downloads\InceptionOriginal\Inception\Inception\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\Arne_\Downloads\InceptionOriginal\Inception\Inception\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Arne_\Downloads\InceptionOriginal\Inception\Inception\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Arne_\Downloads\InceptionOriginal\Inception\Inception\bin\Debug\netcoreapp3.1\Microsoft.VisualBasic.dll
+C:\Users\Arne_\Downloads\InceptionOriginal\Inception\Inception\bin\Debug\netcoreapp3.1\MonoGame.Framework.dll
+C:\Users\Arne_\Downloads\InceptionOriginal\Inception\Inception\bin\Debug\netcoreapp3.1\SharpDX.dll
+C:\Users\Arne_\Downloads\InceptionOriginal\Inception\Inception\bin\Debug\netcoreapp3.1\SharpDX.Direct2D1.dll
+C:\Users\Arne_\Downloads\InceptionOriginal\Inception\Inception\bin\Debug\netcoreapp3.1\SharpDX.Direct3D11.dll
+C:\Users\Arne_\Downloads\InceptionOriginal\Inception\Inception\bin\Debug\netcoreapp3.1\SharpDX.Direct3D9.dll
+C:\Users\Arne_\Downloads\InceptionOriginal\Inception\Inception\bin\Debug\netcoreapp3.1\SharpDX.DXGI.dll
+C:\Users\Arne_\Downloads\InceptionOriginal\Inception\Inception\bin\Debug\netcoreapp3.1\SharpDX.Mathematics.dll
+C:\Users\Arne_\Downloads\InceptionOriginal\Inception\Inception\bin\Debug\netcoreapp3.1\SharpDX.MediaFoundation.dll
+C:\Users\Arne_\Downloads\InceptionOriginal\Inception\Inception\bin\Debug\netcoreapp3.1\SharpDX.XAudio2.dll
+C:\Users\Arne_\Downloads\InceptionOriginal\Inception\Inception\bin\Debug\netcoreapp3.1\SharpDX.XInput.dll
+C:\Users\Arne_\Downloads\InceptionOriginal\Inception\Inception\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libuv.so
+C:\Users\Arne_\Downloads\InceptionOriginal\Inception\Inception\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libuv.so
+C:\Users\Arne_\Downloads\InceptionOriginal\Inception\Inception\bin\Debug\netcoreapp3.1\runtimes\opensuse-x64\native\libuv.so
+C:\Users\Arne_\Downloads\InceptionOriginal\Inception\Inception\bin\Debug\netcoreapp3.1\runtimes\osx\native\libuv.dylib
+C:\Users\Arne_\Downloads\InceptionOriginal\Inception\Inception\bin\Debug\netcoreapp3.1\runtimes\rhel-x64\native\libuv.so
+C:\Users\Arne_\Downloads\InceptionOriginal\Inception\Inception\bin\Debug\netcoreapp3.1\runtimes\win7-arm\native\libuv.dll
+C:\Users\Arne_\Downloads\InceptionOriginal\Inception\Inception\bin\Debug\netcoreapp3.1\runtimes\win7-x64\native\libuv.dll
+C:\Users\Arne_\Downloads\InceptionOriginal\Inception\Inception\bin\Debug\netcoreapp3.1\runtimes\win7-x86\native\libuv.dll
+C:\Users\Arne_\Downloads\InceptionOriginal\Inception\Inception\obj\Debug\netcoreapp3.1\Inception.csproj.AssemblyReference.cache
+C:\Users\Arne_\Downloads\InceptionOriginal\Inception\Inception\obj\Debug\netcoreapp3.1\Inception.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Arne_\Downloads\InceptionOriginal\Inception\Inception\obj\Debug\netcoreapp3.1\Inception.AssemblyInfoInputs.cache
+C:\Users\Arne_\Downloads\InceptionOriginal\Inception\Inception\obj\Debug\netcoreapp3.1\Inception.AssemblyInfo.cs
+C:\Users\Arne_\Downloads\InceptionOriginal\Inception\Inception\obj\Debug\netcoreapp3.1\Inception.csproj.CoreCompileInputs.cache
+C:\Users\Arne_\Downloads\InceptionOriginal\Inception\Inception\obj\Debug\netcoreapp3.1\Inception.csproj.CopyComplete
+C:\Users\Arne_\Downloads\InceptionOriginal\Inception\Inception\obj\Debug\netcoreapp3.1\Inception.dll
+C:\Users\Arne_\Downloads\InceptionOriginal\Inception\Inception\obj\Debug\netcoreapp3.1\Inception.pdb
+C:\Users\Arne_\Downloads\InceptionOriginal\Inception\Inception\obj\Debug\netcoreapp3.1\Inception.genruntimeconfig.cache
+C:\Users\Arne_\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\background\backgroundLevelOne.tmx
+C:\Users\Arne_\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\background\backgroundLevelTwo.tmx
+C:\Users\Arne_\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\background\LevelOneBackground.tmx
+C:\Users\Arne_\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\background\LevelTwoBackground.tmx
+C:\Users\Arne_\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\audio\deathSound.xnb
+C:\Users\Arne_\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\audio\pointSound.xnb
+C:\Users\Arne_\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\audio\shootSound.xnb
+C:\Users\Arne_\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\background\full.xnb
+C:\Users\Arne_\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\background\menuBackground.xnb
+C:\Users\Arne_\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\background\tileset.xnb
+C:\Users\Arne_\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\fonts\Algerian.xnb
+C:\Users\Arne_\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\images\bullet.xnb
+C:\Users\Arne_\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\images\coin.xnb
+C:\Users\Arne_\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\images\enemyOneRun.xnb
+C:\Users\Arne_\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\images\heroFall.xnb
+C:\Users\Arne_\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\images\heroHurt.xnb
+C:\Users\Arne_\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\images\heroIdle.xnb
+C:\Users\Arne_\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\images\heroJump.xnb
+C:\Users\Arne_\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\images\heroRun.xnb
+C:\Users\Arne_\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\ui\StoneButton.xnb
+C:\Users\Arne_\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Content\WinScreen.xnb
+C:\Users\Arne_\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Inception.exe
+C:\Users\Arne_\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Inception.deps.json
+C:\Users\Arne_\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Inception.runtimeconfig.json
+C:\Users\Arne_\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Inception.runtimeconfig.dev.json
+C:\Users\Arne_\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Inception.dll
+C:\Users\Arne_\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Inception.pdb
+C:\Users\Arne_\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\Arne_\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Arne_\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Arne_\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\Microsoft.VisualBasic.dll
+C:\Users\Arne_\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\MonoGame.Framework.dll
+C:\Users\Arne_\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\SharpDX.dll
+C:\Users\Arne_\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\SharpDX.Direct2D1.dll
+C:\Users\Arne_\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\SharpDX.Direct3D11.dll
+C:\Users\Arne_\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\SharpDX.Direct3D9.dll
+C:\Users\Arne_\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\SharpDX.DXGI.dll
+C:\Users\Arne_\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\SharpDX.Mathematics.dll
+C:\Users\Arne_\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\SharpDX.MediaFoundation.dll
+C:\Users\Arne_\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\SharpDX.XAudio2.dll
+C:\Users\Arne_\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\SharpDX.XInput.dll
+C:\Users\Arne_\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libuv.so
+C:\Users\Arne_\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libuv.so
+C:\Users\Arne_\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\runtimes\opensuse-x64\native\libuv.so
+C:\Users\Arne_\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\runtimes\osx\native\libuv.dylib
+C:\Users\Arne_\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\runtimes\rhel-x64\native\libuv.so
+C:\Users\Arne_\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\runtimes\win7-arm\native\libuv.dll
+C:\Users\Arne_\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\runtimes\win7-x64\native\libuv.dll
+C:\Users\Arne_\Downloads\Inception\Inception\Inception\bin\Debug\netcoreapp3.1\runtimes\win7-x86\native\libuv.dll
+C:\Users\Arne_\Downloads\Inception\Inception\Inception\obj\Debug\netcoreapp3.1\Inception.csproj.AssemblyReference.cache
+C:\Users\Arne_\Downloads\Inception\Inception\Inception\obj\Debug\netcoreapp3.1\Inception.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Arne_\Downloads\Inception\Inception\Inception\obj\Debug\netcoreapp3.1\Inception.AssemblyInfoInputs.cache
+C:\Users\Arne_\Downloads\Inception\Inception\Inception\obj\Debug\netcoreapp3.1\Inception.AssemblyInfo.cs
+C:\Users\Arne_\Downloads\Inception\Inception\Inception\obj\Debug\netcoreapp3.1\Inception.csproj.CoreCompileInputs.cache
+C:\Users\Arne_\Downloads\Inception\Inception\Inception\obj\Debug\netcoreapp3.1\Inception.csproj.CopyComplete
+C:\Users\Arne_\Downloads\Inception\Inception\Inception\obj\Debug\netcoreapp3.1\Inception.dll
+C:\Users\Arne_\Downloads\Inception\Inception\Inception\obj\Debug\netcoreapp3.1\Inception.pdb
+C:\Users\Arne_\Downloads\Inception\Inception\Inception\obj\Debug\netcoreapp3.1\Inception.genruntimeconfig.cache
