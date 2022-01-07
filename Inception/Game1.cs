@@ -21,24 +21,6 @@ namespace Inception
         public static int ScreenWidth;
         public static int ScreenHeight;
 
-        //// Tileset
-        //private TmxMap tmxMap;
-        //private TileMapManager tileMapManager;
-        //private Texture2D tilesetTexture;
-        //private List<Rectangle> colliders;
-
-        //// Hero
-        //private Hero hero;
-        //private Texture2D heroIdleTexture;
-        //private Texture2D heroRunTexture;
-        //private Rectangle heroStartPoint;
-        //private float heroSpeed = 1f;
-        //private int heroPoints = 0;
-        //private Rectangle heroEndPoint;
-        //private SpriteFont heroHasWon;
-        //public static bool heroHasLost = false;
-        //private bool heroHasReached = false;
-
         //// Enemy
         //private Enemy enemy1;
         //private Enemy enemy2;
@@ -48,16 +30,9 @@ namespace Inception
         //private List<Rectangle> enemyPathways;
         //private SoundEffect enemyDeathSoundEffect;
 
-        //// Bullet      
-        //private Texture2D bulletTexture;
-        //private SoundEffect bulletSoundEffect;
-
         //// Coin
         //private List<Coin> coins;
         //private SoundEffect coinSoundEffect;
-
-        //// Hitbox
-        //private Hitbox hitbox;
 
         //// Camera
         ////private Camera camera;
@@ -68,8 +43,6 @@ namespace Inception
             _graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
             IsMouseVisible = true;
-
-            //hitbox = new Hitbox(_graphics);
         }
 
         protected override void Initialize()
@@ -79,9 +52,6 @@ namespace Inception
             _graphics.PreferredBackBufferWidth = 1024;
             _graphics.PreferredBackBufferHeight = 640;
             _graphics.ApplyChanges();
-
-            //ScreenHeight = _graphics.PreferredBackBufferHeight;
-            //ScreenWidth = _graphics.PreferredBackBufferWidth;
 
             base.Initialize();
         }
@@ -94,58 +64,15 @@ namespace Inception
 
             //UISpriteBatch = new SpriteBatch(GraphicsDevice);
 
-            //// Hero
-            //heroHasLost = false;
-            //heroHasReached = false;
-            //hitbox.Load(16, 5);
-            //hitbox.isEnabled = true;
-            //heroPoints = 0;
-            //heroHasWon = Content.Load<SpriteFont>("WinScreen");
-
             //// Coin
             //var coin = Content.Load<Texture2D>("images\\coin");
             //coinSoundEffect = Content.Load<SoundEffect>("audio\\pointSound");
-
-            //// Tileset
-            //tmxMap = new TmxMap("Content\\background\\backgroundLevelOne.tmx");
-            //tilesetTexture = Content.Load<Texture2D>("background\\" + tmxMap.Tilesets[0].Name.ToString());
-            //int tileWidth = tmxMap.Tilesets[0].TileWidth;
-            //int tileHeight = tmxMap.Tilesets[0].TileHeight;
-            //int tilesetTileWidth = tilesetTexture.Width / tileWidth;
-            //tileMapManager = new TileMapManager(_spriteBatch, tmxMap, tilesetTexture, tilesetTileWidth, tileWidth, tileHeight);
 
             //// Enemy
             //enemyPathways = new List<Rectangle>();
 
             //// Coin
             //coins = new List<Coin>();
-
-            //// Collisions
-            //colliders = new List<Rectangle>();
-
-            //foreach (var obj in tmxMap.ObjectGroups["Collisions"].Objects)
-            //{
-            //    if (obj.Name == "")
-            //    {
-            //        colliders.Add(new Rectangle((int)obj.X, (int)obj.Y, (int)obj.Width, (int)obj.Height));
-            //    }
-            //    else if (obj.Name == "startPoint")
-            //    {
-            //        heroStartPoint = new Rectangle((int)obj.X, (int)obj.Y, (int)obj.Width, (int)obj.Height);
-            //    }
-            //    else if (obj.Name == "endPoint")
-            //    {
-            //        heroEndPoint = new Rectangle((int)obj.X, (int)obj.Y, (int)obj.Width, (int)obj.Height);
-            //    }
-            //    else if (obj.Name == "enemyPathway")
-            //    {
-            //        enemyPathways.Add(new Rectangle((int)obj.X, (int)obj.Y, (int)obj.Width, (int)obj.Height));
-            //    }
-            //    else if (obj.Name == "coin")
-            //    {
-            //        coins.Add(new Coin(coin, new Vector2((int)obj.X, (int)obj.Y)));
-            //    }
-            //}
 
             //// Hero
             //heroIdleTexture = Content.Load<Texture2D>("images\\heroIdle");
