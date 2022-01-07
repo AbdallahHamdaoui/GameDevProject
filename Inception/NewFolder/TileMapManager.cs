@@ -16,9 +16,9 @@ namespace Inception.NewFolder
         int tileWidth;
         int tileHeight;
 
-        public TileMapManager(SpriteBatch _spriteBatch, TmxMap _map, Texture2D _tileset, int _tilsetTilesWide, int _tileWidth, int _tileHeight)
+        public TileMapManager(TmxMap _map, Texture2D _tileset, int _tilsetTilesWide, int _tileWidth, int _tileHeight)
         {
-            spriteBatch = _spriteBatch;
+            //spriteBatch = _spriteBatch;
             map = _map;
             tileset = _tileset;
             tilesetTilesWide = _tilsetTilesWide;
@@ -26,7 +26,7 @@ namespace Inception.NewFolder
             tileHeight = _tileHeight;
         }
 
-        public void Draw()
+        public void Draw(SpriteBatch spriteBatch)
         {
             for (var i = 0; i < map.TileLayers.Count; i++)
             {

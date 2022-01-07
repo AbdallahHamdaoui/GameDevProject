@@ -7355,11 +7355,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Arne_\\Downloads\\Inception\\Inception\\Inception\\Inception.csproj",
+      "projectUniqueName": "D:\\School\\TweedeJaar\\Game Development\\21-22\\GameDevProject\\Inception\\Inception.csproj",
       "projectName": "Inception",
-      "projectPath": "C:\\Users\\Arne_\\Downloads\\Inception\\Inception\\Inception\\Inception.csproj",
+      "projectPath": "D:\\School\\TweedeJaar\\Game Development\\21-22\\GameDevProject\\Inception\\Inception.csproj",
       "packagesPath": "C:\\Users\\Arne_\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Arne_\\Downloads\\Inception\\Inception\\Inception\\obj\\",
+      "outputPath": "D:\\School\\TweedeJaar\\Game Development\\21-22\\GameDevProject\\Inception\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

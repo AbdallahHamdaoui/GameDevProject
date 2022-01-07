@@ -39,7 +39,7 @@ namespace Inception.NewFolder
 
             if (enemyRectangle.Intersects(heroRectangle))
             {
-                Game1.heroHasLost = true;
+                //Game1.heroHasLost = true;
             }
 
             enemyPosition.X += enemySpeed;
