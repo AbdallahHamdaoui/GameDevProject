@@ -29,9 +29,22 @@ namespace Inception.NewFolder.GameStates.Levels
         public static bool heroHasLost = false;
         private bool heroHasReached = false;
 
+        // Enemy
+        private Enemy enemy1;
+        private Enemy enemy2;
+        private Enemy enemy3;
+        private Texture2D enemyRunTexture;
+        private List<Enemy> enemies;
+        private List<Rectangle> enemyPathways;
+        private SoundEffect enemyDeathSoundEffect;
+
         // Bullet      
         private Texture2D bulletTexture;
         private SoundEffect bulletSoundEffect;
+
+        // Coin
+        private List<Coin> coins;
+        private SoundEffect coinSoundEffect;
 
         // Hitbox
         private Hitbox hitbox;
@@ -42,14 +55,23 @@ namespace Inception.NewFolder.GameStates.Levels
         public LevelOne(Game1 game, GraphicsDevice graphicsDevice, GraphicsDeviceManager graphicsDeviceManager)
             : base(game, graphicsDevice, graphicsDeviceManager)
         {
+            hero = new Hero(new Vector2(heroStartPoint.X, heroStartPoint.Y));
             hitbox = new Hitbox(graphicsDeviceManager);
+            heroCamera = new Camera(graphicsDeviceManager);
+            coins = new List<Coin>();
+            enemies = new List<Enemy>();
+            colliders = new List<Rectangle>();
+            enemyPathways = new List<Rectangle>();
         }
 
         public override void Draw(SpriteBatch spriteBatch, GameTime gameTime)
         {
             spriteBatch.Begin(blendState: BlendState.AlphaBlend, sortMode: SpriteSortMode.Immediate, transformMatrix: heroCamera.Transform);
+            
+            //Tileset
             tileMapManager.Draw(spriteBatch);
 
+            //Hero
             if (hero.heroIsFacingLeft)
             {
                 hero.Draw(spriteBatch, SpriteEffects.FlipHorizontally, gameTime);
@@ -59,10 +81,24 @@ namespace Inception.NewFolder.GameStates.Levels
                 hero.Draw(spriteBatch, SpriteEffects.None, gameTime);
             }
 
+            //Bullet
             foreach (var bullet in hero.bulletList)
             {
                 bullet.Draw(spriteBatch);
             }
+
+            //Coin
+            foreach (var coin in coins)
+            {
+                coin.Draw(spriteBatch, gameTime);
+            }
+
+            //Enemy
+            foreach (var enemy in enemies)
+            {
+                enemy.Draw(spriteBatch, gameTime);
+            }
+
             spriteBatch.End();
         }
 
@@ -87,19 +123,10 @@ namespace Inception.NewFolder.GameStates.Levels
             hitbox.Load(16, 5);
             hitbox.isEnabled = true;
             heroPoints = 0;
+            hero.LoadContent(content);
             //heroHasWon = Content.Load<SpriteFont>("WinScreen");
 
-            heroIdleTexture = content.Load<Texture2D>("images\\heroIdle");
-            heroRunTexture = content.Load<Texture2D>("images\\heroRun");
-            bulletSoundEffect = content.Load<SoundEffect>("audio\\shootSound");
-            hero = new Hero(heroIdleTexture, heroRunTexture, bulletSoundEffect, new Vector2(heroStartPoint.X, heroStartPoint.Y));
-
-            // Bullet
-            bulletTexture = content.Load<Texture2D>("images\\bullet");
-
             // Collisions
-            colliders = new List<Rectangle>();
-
             foreach (var obj in tmxMap.ObjectGroups["Collisions"].Objects)
             {
                 if (obj.Name == "")
@@ -114,18 +141,33 @@ namespace Inception.NewFolder.GameStates.Levels
                 {
                     heroEndPoint = new Rectangle((int)obj.X, (int)obj.Y, (int)obj.Width, (int)obj.Height);
                 }
-                //    else if (obj.Name == "enemyPathway")
-                //    {
-                //        enemyPathways.Add(new Rectangle((int)obj.X, (int)obj.Y, (int)obj.Width, (int)obj.Height));
-                //    }
-                //    else if (obj.Name == "coin")
-                //    {
-                //        coins.Add(new Coin(coin, new Vector2((int)obj.X, (int)obj.Y)));
-                //    }
+                else if (obj.Name == "enemyPathway")
+                {
+                    enemyPathways.Add(new Rectangle((int)obj.X, (int)obj.Y, (int)obj.Width, (int)obj.Height));
+                }
+                else if (obj.Name == "coin")
+                {
+                    Coin coin = new Coin(new Vector2((int)obj.X, (int)obj.Y));
+                    coin.LoadContent(content);
+                    coins.Add(coin);
+                }
             }
+            // Enemy
+            
+            //enemyDeathSoundEffect = content.Load<SoundEffect>("audio\\deathSound");
 
-            // Camera
-            heroCamera = new Camera(_graphicsDeviceManager);
+            enemy1 = new Enemy(enemyPathways[0], 1, _graphicsDeviceManager);
+            enemy1.LoadContent(content);
+            enemies.Add(enemy1);
+            enemy2 = new Enemy(enemyPathways[1], 1, _graphicsDeviceManager);
+            enemy2.LoadContent(content);
+            enemies.Add(enemy2);
+            enemy3 = new Enemy(enemyPathways[2], 1, _graphicsDeviceManager);
+            enemy3.LoadContent(content);
+            enemies.Add(enemy3);
+
+            // Bullet
+            bulletTexture = content.Load<Texture2D>("images\\bullet");            
         }
 
         public override void UnloadContent()
@@ -139,8 +181,6 @@ namespace Inception.NewFolder.GameStates.Levels
 
             if (!heroHasLost && !heroHasReached)
             {
-                //camera.Follow(hero.heroRectangle);
-                //heroCamera.Follow(hero, tmxMap);
                 var initialPosition = hero.heroMovement;
                 hero.heroIsFalling = true;
                 hero.Update(gameTime, bulletTexture, heroSpeed);
@@ -170,17 +210,27 @@ namespace Inception.NewFolder.GameStates.Levels
                             break;
                         }
 
-                        //foreach (var enemy in enemies.ToArray())
-                        //{
-                        //    if (enemy.enemyRectangle.Intersects(bullet.bulletRectangle))
-                        //    {
-                        //        enemies.Remove(enemy);
-                        //        hero.bulletList.Remove(bullet);
-                        //        enemyDeathSoundEffect.Play();
-                        //        heroPoints++;
-                        //        break;
-                        //    }
-                        //}
+                        foreach (var enemy in enemies.ToArray())
+                        {
+                            if (enemy.enemyRectangle.Intersects(bullet.bulletRectangle))
+                            {
+                                enemies.Remove(enemy);
+                                hero.bulletList.Remove(bullet);
+                                enemyDeathSoundEffect.Play();
+                                heroPoints++;
+                                break;
+                            }
+                        }
+                    }
+
+                    foreach (var coin in coins.ToArray())
+                    {
+                        if (coin.coinRectangle.Intersects(hero.heroRectangle))
+                        {
+                            heroPoints++;
+                            coinSoundEffect.Play();
+                            coins.Remove(coin);
+                        }
                     }
                 }
 
@@ -189,6 +239,11 @@ namespace Inception.NewFolder.GameStates.Levels
                 foreach (var bullet in hero.bulletList)
                 {
                     bullet.Update();
+                }
+
+                foreach (var enemy in enemies)
+                {
+                    enemy.Update(hero.heroRectangle);
                 }
             }
         }

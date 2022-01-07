@@ -1,4 +1,6 @@
 ﻿using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Audio;
+using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using System;
 using System.Collections.Generic;
@@ -17,17 +19,23 @@ namespace Inception.NewFolder
         public Rectangle enemyRectangle;
         public Rectangle enemyPathway;
 
-        public Enemy(Texture2D enemytexture, Rectangle enemyposition, float enemyspeed, GraphicsDeviceManager _graphics = null)
+        public Enemy(Rectangle enemyposition, float enemyspeed, GraphicsDeviceManager _graphics = null)
         {
-            enemyTexture = enemytexture;
             enemySpeed = enemyspeed;
-            enemyCurrentAnimation = new Animation(enemytexture, 0, 32, 32);
+            
             enemyPosition = new Vector2(enemyposition.X, enemyposition.Y);
             enemyRectangle = new Rectangle(enemyposition.X, enemyposition.Y, 32, 32);
             enemyPathway = enemyposition;
         }
 
         public void Unload() { }
+
+        public void LoadContent(ContentManager content)
+        {
+            //enemyDeathSoundEffect = content.Load<SoundEffect>("audio\\deathSound");
+            enemyTexture = content.Load<Texture2D>("images\\enemyOneRun");
+            enemyCurrentAnimation = new Animation(enemyTexture, 0, 32, 32);
+        }
 
         public void Update(Rectangle heroRectangle)
         {

@@ -29,10 +29,6 @@ namespace Inception
         //private List<Rectangle> enemyPathways;
         //private SoundEffect enemyDeathSoundEffect;
 
-        //// Coin
-        //private List<Coin> coins;
-        //private SoundEffect coinSoundEffect;
-
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
@@ -57,15 +53,8 @@ namespace Inception
 
             // TODO: use this.Content to load your game content here
 
-            //// Coin
-            //var coin = Content.Load<Texture2D>("images\\coin");
-            //coinSoundEffect = Content.Load<SoundEffect>("audio\\pointSound");
-
             //// Enemy
             //enemyPathways = new List<Rectangle>();
-
-            //// Coin
-            //coins = new List<Coin>();
 
             //// Enenmy
             //enemyDeathSoundEffect = Content.Load<SoundEffect>("audio\\deathSound");
@@ -99,16 +88,6 @@ namespace Inception
 
             //if (!heroHasLost && !heroHasReached)
             //{
-            //    foreach (var coin in coins.ToArray())
-            //    {
-            //        if (coin.coinRectangle.Intersects(hero.heroRectangle))
-            //        {
-            //            heroPoints++;
-            //            coinSoundEffect.Play();
-            //            coins.Remove(coin);
-            //        }
-            //    }
-
             //    foreach (var enemy in enemies)
             //    {
             //        enemy.Update(hero.heroRectangle);
@@ -127,11 +106,6 @@ namespace Inception
             // TODO: Add your drawing code here
 
             //_spriteBatch.Begin();
-
-            //foreach (var coin in coins)
-            //{
-            //    coin.Draw(_spriteBatch, gameTime);
-            //}
 
             //foreach (var enemy in enemies)
             //{
