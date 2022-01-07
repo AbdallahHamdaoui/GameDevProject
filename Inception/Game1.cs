@@ -15,7 +15,6 @@ namespace Inception
     {
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
-        //private SpriteBatch UISpriteBatch;
 
         // Screen
         public static int ScreenWidth;
@@ -33,10 +32,6 @@ namespace Inception
         //// Coin
         //private List<Coin> coins;
         //private SoundEffect coinSoundEffect;
-
-        //// Camera
-        ////private Camera camera;
-        //private Camera heroCamera;
 
         public Game1()
         {
@@ -62,8 +57,6 @@ namespace Inception
 
             // TODO: use this.Content to load your game content here
 
-            //UISpriteBatch = new SpriteBatch(GraphicsDevice);
-
             //// Coin
             //var coin = Content.Load<Texture2D>("images\\coin");
             //coinSoundEffect = Content.Load<SoundEffect>("audio\\pointSound");
@@ -73,15 +66,6 @@ namespace Inception
 
             //// Coin
             //coins = new List<Coin>();
-
-            //// Hero
-            //heroIdleTexture = Content.Load<Texture2D>("images\\heroIdle");
-            //heroRunTexture = Content.Load<Texture2D>("images\\heroRun");
-            //bulletSoundEffect = Content.Load<SoundEffect>("audio\\shootSound");
-            //hero = new Hero(heroIdleTexture, heroRunTexture, bulletSoundEffect, new Vector2(heroStartPoint.X, heroStartPoint.Y));
-
-            //// Bullet
-            //bulletTexture = Content.Load<Texture2D>("images\\bullet");
 
             //// Enenmy
             //enemyDeathSoundEffect = Content.Load<SoundEffect>("audio\\deathSound");
@@ -93,10 +77,6 @@ namespace Inception
             //enemies.Add(enemy2);
             //enemy3 = new Enemy(enemyRunTexture, enemyPathways[2], 1, _graphics);
             //enemies.Add(enemy3);
-
-            //// Camera
-            ////camera = new Camera();
-            //heroCamera = new Camera(_graphics);
 
             GameStateManager.Instance.SetContent(Content);
             GameState startMenu = new StartMenu(this, GraphicsDevice, _graphics);
@@ -117,55 +97,8 @@ namespace Inception
 
             // TODO: Add your update logic here
 
-            //heroCamera.Follow(hero, hitbox, tmxMap);
-
             //if (!heroHasLost && !heroHasReached)
             //{
-            //    //camera.Follow(hero.heroRectangle);
-            //    //heroCamera.Follow(hero, tmxMap);
-            //    var initialPosition = hero.heroMovement;
-            //    hero.heroIsFalling = true;
-            //    hero.Update(gameTime, bulletTexture, heroSpeed);
-
-            //    if (heroEndPoint.Intersects(hero.heroRectangle))
-            //    {
-            //        heroHasReached = true;
-            //    }
-
-            //    foreach (var rectangle in colliders)
-            //    {
-            //        if (hero.heroRectangle.Intersects(rectangle))
-            //        {
-            //            hero.heroMovement.X = initialPosition.X;
-            //        }
-
-            //        if (rectangle.Intersects(hero.heroJumpPoint))
-            //        {
-            //            hero.heroIsFalling = !rectangle.Intersects(hero.heroJumpPoint);
-            //        }
-
-            //        foreach (var bullet in hero.bulletList.ToArray())
-            //        {
-            //            if (bullet.bulletRectangle.Intersects(rectangle))
-            //            {
-            //                hero.bulletList.Remove(bullet);
-            //                break;
-            //            }
-
-            //            foreach (var enemy in enemies.ToArray())
-            //            {
-            //                if (enemy.enemyRectangle.Intersects(bullet.bulletRectangle))
-            //                {
-            //                    enemies.Remove(enemy);
-            //                    hero.bulletList.Remove(bullet);
-            //                    enemyDeathSoundEffect.Play();
-            //                    heroPoints++;
-            //                    break;
-            //                }
-            //            }
-            //        }
-            //    }
-
             //    foreach (var coin in coins.ToArray())
             //    {
             //        if (coin.coinRectangle.Intersects(hero.heroRectangle))
@@ -176,16 +109,9 @@ namespace Inception
             //        }
             //    }
 
-            //    hero.Jump();
-
             //    foreach (var enemy in enemies)
             //    {
             //        enemy.Update(hero.heroRectangle);
-            //    }
-
-            //    foreach (var bullet in hero.bulletList)
-            //    {
-            //        bullet.Update();
             //    }
             //}
 
@@ -200,26 +126,11 @@ namespace Inception
 
             // TODO: Add your drawing code here
 
-            //new SpriteBatch(GraphicsDevice);
-
-
-            ////_spriteBatch.Begin(transformMatrix: camera.Matrix);
-            //_spriteBatch.Begin(blendState: BlendState.AlphaBlend, sortMode: SpriteSortMode.Immediate, transformMatrix: heroCamera.Transform);
-
-            //tileMapManager.Draw();
+            //_spriteBatch.Begin();
 
             //foreach (var coin in coins)
             //{
             //    coin.Draw(_spriteBatch, gameTime);
-            //}
-
-            //if (hero.heroIsFacingLeft)
-            //{
-            //    hero.Draw(_spriteBatch, SpriteEffects.FlipHorizontally, gameTime);
-            //}
-            //else
-            //{
-            //    hero.Draw(_spriteBatch, SpriteEffects.None, gameTime);
             //}
 
             //foreach (var enemy in enemies)
@@ -227,29 +138,7 @@ namespace Inception
             //    enemy.Draw(_spriteBatch, gameTime);
             //}
 
-            //foreach (var bullet in hero.bulletList)
-            //{
-            //    bullet.Draw(_spriteBatch);
-            //}
-
             //_spriteBatch.End();
-
-
-            //UISpriteBatch.Begin();
-
-            //UISpriteBatch.DrawString(heroHasWon, $"Points: {heroPoints}", new Vector2(0, 0), Color.White);
-
-            //if (heroHasReached)
-            //{
-            //    UISpriteBatch.DrawString(heroHasWon, "You have won! \n Click R to Restart or click", new Vector2(ScreenWidth / 3, ScreenHeight / 2), Color.White);
-            //}
-
-            //if (heroHasLost && !heroHasReached)
-            //{
-            //    UISpriteBatch.DrawString(heroHasWon, "Game over! \n Click R to Restart", new Vector2(ScreenWidth / 3, ScreenHeight / 2), Color.White);
-            //}
-
-            //UISpriteBatch.End();
 
             GameStateManager.Instance.Draw(_spriteBatch, gameTime);
 

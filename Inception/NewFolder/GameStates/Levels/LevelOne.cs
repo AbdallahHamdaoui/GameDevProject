@@ -36,6 +36,9 @@ namespace Inception.NewFolder.GameStates.Levels
         // Hitbox
         private Hitbox hitbox;
 
+        // Camera
+        private Camera heroCamera;
+
         public LevelOne(Game1 game, GraphicsDevice graphicsDevice, GraphicsDeviceManager graphicsDeviceManager)
             : base(game, graphicsDevice, graphicsDeviceManager)
         {
@@ -44,7 +47,7 @@ namespace Inception.NewFolder.GameStates.Levels
 
         public override void Draw(SpriteBatch spriteBatch, GameTime gameTime)
         {
-            spriteBatch.Begin();
+            spriteBatch.Begin(blendState: BlendState.AlphaBlend, sortMode: SpriteSortMode.Immediate, transformMatrix: heroCamera.Transform);
             tileMapManager.Draw(spriteBatch);
 
             if (hero.heroIsFacingLeft)
@@ -120,6 +123,9 @@ namespace Inception.NewFolder.GameStates.Levels
                 //        coins.Add(new Coin(coin, new Vector2((int)obj.X, (int)obj.Y)));
                 //    }
             }
+
+            // Camera
+            heroCamera = new Camera(_graphicsDeviceManager);
         }
 
         public override void UnloadContent()
@@ -129,6 +135,8 @@ namespace Inception.NewFolder.GameStates.Levels
 
         public override void Update(GameTime gameTime)
         {
+            heroCamera.Follow(hero, hitbox, tmxMap);
+
             if (!heroHasLost && !heroHasReached)
             {
                 //camera.Follow(hero.heroRectangle);

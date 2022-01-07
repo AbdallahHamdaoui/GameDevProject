@@ -49,7 +49,7 @@ namespace Inception.NewFolder
             heroRunCurrentAnimation = heroIdleCurrentAnimation;
         }
 
-        public void Update(GameTime gameTime, Texture2D bulletTexture, float moveSpeed = 1f)
+        public void Update(GameTime gameTime, Texture2D bulletTexture, float moveSpeed = 3f)
         {
             heroRunCurrentAnimation = heroIdleCurrentAnimation;
             heroMovement.Y += heroFallSpeed;
