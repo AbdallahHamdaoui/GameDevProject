@@ -2,7 +2,6 @@
 using Inception.GameClasses.Enemies;
 using Inception.GameClasses.GameStates.Menu_s;
 using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Audio;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using System;
@@ -12,7 +11,7 @@ using TiledSharp;
 
 namespace Inception.GameClasses.GameStates.Levels
 {
-    public class LevelOne : GameState
+    public class LevelTwo : GameState
     {
         // Tileset
         private TmxMap tmxMap;
@@ -46,8 +45,8 @@ namespace Inception.GameClasses.GameStates.Levels
         // Camera
         private Camera heroCamera;
 
-        public LevelOne(Game1 game, GraphicsDevice graphicsDevice, GraphicsDeviceManager graphicsDeviceManager)
-            : base(game, graphicsDevice, graphicsDeviceManager)
+        public LevelTwo(Game1 game, GraphicsDevice graphicsDevice, GraphicsDeviceManager graphicsDeviceManager)
+            : base(game, graphicsDevice, graphicsDeviceManager) 
         {
             hero = new Hero(new Vector2(heroStartPoint.X, heroStartPoint.Y));
             hitbox = new Hitbox(graphicsDeviceManager);
@@ -62,7 +61,7 @@ namespace Inception.GameClasses.GameStates.Levels
         public override void Draw(SpriteBatch spriteBatch, GameTime gameTime)
         {
             spriteBatch.Begin(blendState: BlendState.AlphaBlend, sortMode: SpriteSortMode.Immediate, transformMatrix: heroCamera.Transform);
-            
+
             //Tileset
             tileMapManager.Draw(spriteBatch);
 
@@ -99,7 +98,7 @@ namespace Inception.GameClasses.GameStates.Levels
         public override void LoadContent(ContentManager content)
         {
             // Tileset
-            tmxMap = new TmxMap("Content\\background\\backgroundLevelOne.tmx");
+            tmxMap = new TmxMap("Content\\background\\backgroundLevelTwo.tmx");
             tilesetTexture = content.Load<Texture2D>("background\\" + tmxMap.Tilesets[0].Name.ToString());
             int tileWidth = tmxMap.Tilesets[0].TileWidth;
             int tileHeight = tmxMap.Tilesets[0].TileHeight;
@@ -152,7 +151,9 @@ namespace Inception.GameClasses.GameStates.Levels
             bulletManager.LoadContent(content);
         }
 
-        public override void UnloadContent() { }
+        public override void UnloadContent()
+        {
+        }
 
         public override void Update(GameTime gameTime)
         {
@@ -208,7 +209,7 @@ namespace Inception.GameClasses.GameStates.Levels
             }
 
             CheckHeroDeath();
-            CheckHeroReachedEndOfLevel();
+            //CheckHeroReachedEndOfLevel();
         }
 
         private void CheckHeroDeath()
@@ -217,15 +218,6 @@ namespace Inception.GameClasses.GameStates.Levels
             {
                 GameState gameOverMenu = new GameOverMenu(Game, _graphicsDevice, _graphicsDeviceManager);
                 GameStateManager.Instance.AddScreen(gameOverMenu);
-            }
-        }
-
-        private void CheckHeroReachedEndOfLevel()
-        {
-            if (heroHasReachedEnd)
-            {
-                GameState SecondLevel = new LevelTwo(Game, _graphicsDevice, _graphicsDeviceManager);
-                GameStateManager.Instance.ChangeScreen(SecondLevel);
             }
         }
     }

@@ -110,7 +110,5 @@ namespace Inception.GameClasses
         {
             heroRunCurrentAnimation.Draw(spriteBatch, heroMovement, gameTime, effects, 100);
         }
-
-        
     }
 }
