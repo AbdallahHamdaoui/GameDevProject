@@ -1,4 +1,5 @@
-﻿using Microsoft.Xna.Framework;
+﻿using Inception.GameClasses.Enemies;
+using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Audio;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
@@ -87,7 +88,7 @@ namespace Inception.GameClasses.Bullet
                 {
                     bulletList.Remove(bullet);
                     enemies.Remove(enemy);
-                    enemy.PlayEnemyDeathSound();
+                    //enemy.PlayEnemyDeathSound();
                     return true;
                 }
             }

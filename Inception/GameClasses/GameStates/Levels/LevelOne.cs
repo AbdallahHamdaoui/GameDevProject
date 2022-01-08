@@ -1,4 +1,5 @@
 ﻿using Inception.GameClasses.Bullet;
+using Inception.GameClasses.Enemies;
 using Inception.GameClasses.GameStates.Menu_s;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Audio;
@@ -30,10 +31,7 @@ namespace Inception.GameClasses.GameStates.Levels
         private bool heroHasReached = false;
 
         // Enemy
-        private Enemy enemy1;
-        private Enemy enemy2;
-        private Enemy enemy3;
-        private List<Enemy> enemies;
+        private EnemyManager enemyManager;
         private List<Rectangle> enemyPathways;
 
         // Bullet      
@@ -55,7 +53,7 @@ namespace Inception.GameClasses.GameStates.Levels
             hitbox = new Hitbox(graphicsDeviceManager);
             heroCamera = new Camera(graphicsDeviceManager);
             coins = new List<Coin>();
-            enemies = new List<Enemy>();
+            enemyManager = new EnemyManager();
             colliders = new List<Rectangle>();
             enemyPathways = new List<Rectangle>();
             bulletManager = new BulletManager();
@@ -88,10 +86,7 @@ namespace Inception.GameClasses.GameStates.Levels
             }
 
             //Enemy
-            foreach (var enemy in enemies)
-            {
-                enemy.Draw(spriteBatch, gameTime);
-            }
+            enemyManager.Draw(spriteBatch, gameTime);
 
             spriteBatch.End();
         }
@@ -146,17 +141,12 @@ namespace Inception.GameClasses.GameStates.Levels
                     coins.Add(coin);
                 }
             }
-            
+
             // Enemy
-            enemy1 = new Enemy(enemyPathways[0], 1, _graphicsDeviceManager);
-            enemy1.LoadContent(content);
-            enemies.Add(enemy1);
-            enemy2 = new Enemy(enemyPathways[1], 1, _graphicsDeviceManager);
-            enemy2.LoadContent(content);
-            enemies.Add(enemy2);
-            enemy3 = new Enemy(enemyPathways[2], 1, _graphicsDeviceManager);
-            enemy3.LoadContent(content);
-            enemies.Add(enemy3);
+            enemyManager.LoadContent(content);
+            enemyManager.SpawnEnemy(enemyPathways[0], _graphicsDeviceManager);
+            enemyManager.SpawnEnemy(enemyPathways[1], _graphicsDeviceManager);
+            enemyManager.SpawnEnemy(enemyPathways[2], _graphicsDeviceManager);
 
             // Bullet
             bulletManager.LoadContent(content);
@@ -210,15 +200,18 @@ namespace Inception.GameClasses.GameStates.Levels
                 bulletManager.Update(gameTime, hero);
                 bulletManager.CheckCollision(colliders);
 
-                if (bulletManager.CheckEnemyCollision(enemies))
+                if (bulletManager.CheckEnemyCollision(enemyManager.enemies))
                 {
                     heroPoints++;
                 }
 
-                foreach (var enemy in enemies)
+                enemyManager.Update(gameTime, hero);
+
+                if (enemyManager.CheckCollisionWithHero(hero))
                 {
-                    enemy.Update(hero.heroRectangle);
+                    heroHasLost = true;
                 }
+
             }
             CheckHeroDeath();
         }

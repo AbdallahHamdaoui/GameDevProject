@@ -9,36 +9,28 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Inception.GameClasses
+namespace Inception.GameClasses.Enemies
 {
     public class Enemy
     {
-        private Texture2D enemyTexture;
-        private Animation enemyCurrentAnimation;
-        private SoundEffect enemyDeathSoundEffect;
+        private Animation runAnimation;
         private bool enemyIsFacingLeft = true;
 
-        public float enemySpeed;
+        private float enemySpeed;
         public Vector2 enemyPosition;
         public Rectangle enemyRectangle;
         public Rectangle enemyPathway;
 
-        public Enemy(Rectangle enemyposition, float enemyspeed, GraphicsDeviceManager _graphics = null)
+        public Enemy(Texture2D texture, Rectangle enemyposition, float enemyspeed, GraphicsDeviceManager _graphics = null)
         {
             this.enemySpeed = enemyspeed;
             enemyPosition = new Vector2(enemyposition.X, enemyposition.Y);
             enemyRectangle = new Rectangle(enemyposition.X, enemyposition.Y, 32, 32);
+            runAnimation = new Animation(texture, 0, 32, 32);
             enemyPathway = enemyposition;
         }
 
         public void Unload() { }
-
-        public void LoadContent(ContentManager content)
-        {
-            enemyDeathSoundEffect = content.Load<SoundEffect>("audio\\deathSound");
-            enemyTexture = content.Load<Texture2D>("images\\enemyOneRun");
-            enemyCurrentAnimation = new Animation(enemyTexture, 0, 32, 32);
-        }
 
         public void Update(Rectangle heroRectangle)
         {
@@ -46,11 +38,6 @@ namespace Inception.GameClasses
             {
                 enemySpeed = -enemySpeed;
                 enemyIsFacingLeft = !enemyIsFacingLeft;
-            }
-
-            if (enemyRectangle.Intersects(heroRectangle))
-            {
-                LevelOne.heroHasLost = true;
             }
 
             enemyPosition.X += enemySpeed;
@@ -62,17 +49,26 @@ namespace Inception.GameClasses
         {
             if (enemyIsFacingLeft)
             {
-                enemyCurrentAnimation.Draw(spriteBatch, enemyPosition, gameTime, SpriteEffects.None, 100);
+                runAnimation.Draw(spriteBatch, enemyPosition, gameTime, SpriteEffects.None, 100);
             }
             else
             {
-                enemyCurrentAnimation.Draw(spriteBatch, enemyPosition, gameTime, SpriteEffects.FlipHorizontally, 100);
+                runAnimation.Draw(spriteBatch, enemyPosition, gameTime, SpriteEffects.FlipHorizontally, 100);
             }
         }
 
-        public void PlayEnemyDeathSound()
+        public bool CheckCollisionWithHero(Hero hero)
         {
-            enemyDeathSoundEffect.Play();
+            if (enemyRectangle.Intersects(hero.heroRectangle))
+            {
+                return true;
+            }
+            return false;
         }
+
+        //public void PlayEnemyDeathSound()
+        //{
+        //    enemyDeathSoundEffect.Play();
+        //}
     }
 }
