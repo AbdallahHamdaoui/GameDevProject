@@ -209,7 +209,7 @@ namespace Inception.GameClasses.GameStates.Levels
             }
 
             CheckHeroDeath();
-            //CheckHeroReachedEndOfLevel();
+            CheckHeroReachedEndOfLevel();
         }
 
         private void CheckHeroDeath()
@@ -220,5 +220,14 @@ namespace Inception.GameClasses.GameStates.Levels
                 GameStateManager.Instance.AddScreen(gameOverMenu);
             }
         }
+        private void CheckHeroReachedEndOfLevel()
+        {
+            if (heroHasReachedEnd)
+            {
+                GameState victoryMenu = new VictoryMenu(Game, _graphicsDevice, _graphicsDeviceManager);
+                GameStateManager.Instance.ChangeScreen(victoryMenu);
+            }
+        }
+
     }
 }
