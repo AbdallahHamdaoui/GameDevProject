@@ -55,7 +55,7 @@ namespace Inception.GameClasses.Enemies
 
         public void SpawnEnemy(Rectangle position, GraphicsDeviceManager graphics)
         {
-            Enemy enemy = new Enemy(enemyTexture, position, 1, graphics);
+            Enemy enemy = new Enemy(enemyTexture, enemyDeathSoundEffect, position, 1, graphics);
             enemies.Add(enemy);
         }
     }

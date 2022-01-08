@@ -88,7 +88,7 @@ namespace Inception.GameClasses.Bullet
                 {
                     bulletList.Remove(bullet);
                     enemies.Remove(enemy);
-                    //enemy.PlayEnemyDeathSound();
+                    enemy.Dies();
                     return true;
                 }
             }

@@ -15,18 +15,19 @@ namespace Inception.GameClasses.Enemies
     {
         private Animation runAnimation;
         private bool enemyIsFacingLeft = true;
-
+        private SoundEffect deathSoundEffect;
         private float enemySpeed;
         public Vector2 enemyPosition;
         public Rectangle enemyRectangle;
         public Rectangle enemyPathway;
 
-        public Enemy(Texture2D texture, Rectangle enemyposition, float enemyspeed, GraphicsDeviceManager _graphics = null)
+        public Enemy(Texture2D texture, SoundEffect soundEffect, Rectangle enemyposition, float enemyspeed, GraphicsDeviceManager _graphics = null)
         {
             this.enemySpeed = enemyspeed;
             enemyPosition = new Vector2(enemyposition.X, enemyposition.Y);
             enemyRectangle = new Rectangle(enemyposition.X, enemyposition.Y, 32, 32);
             runAnimation = new Animation(texture, 0, 32, 32);
+            deathSoundEffect = soundEffect;
             enemyPathway = enemyposition;
         }
 
@@ -66,9 +67,9 @@ namespace Inception.GameClasses.Enemies
             return false;
         }
 
-        //public void PlayEnemyDeathSound()
-        //{
-        //    enemyDeathSoundEffect.Play();
-        //}
+        public void Dies()
+        {
+            deathSoundEffect.Play();
+        }
     }
 }
