@@ -78,6 +78,7 @@ namespace Inception.GameClasses.GameStates.Levels
                 hero.Draw(spriteBatch, SpriteEffects.None, gameTime);
             }
 
+            //Bullet
             bulletManager.Draw(spriteBatch);
 
             //Coin

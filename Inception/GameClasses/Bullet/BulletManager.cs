@@ -13,8 +13,8 @@ namespace Inception.GameClasses.Bullet
     {
         private List<Bullet> bulletList;
         private Texture2D bulletTexture;
-        private float timeBetweenBullets = 2;
         private SoundEffect bulletSoundEffect;
+        private float timeBetweenBullets = 2;
 
         public BulletManager()
         {
@@ -23,8 +23,8 @@ namespace Inception.GameClasses.Bullet
 
         public void LoadContent(ContentManager content)
         {
-            bulletSoundEffect = content.Load<SoundEffect>("audio\\shootSound");
             bulletTexture = content.Load<Texture2D>("images\\bullet");
+            bulletSoundEffect = content.Load<SoundEffect>("audio\\shootSound");
         }
 
         public void Update(GameTime gameTime, Hero hero)

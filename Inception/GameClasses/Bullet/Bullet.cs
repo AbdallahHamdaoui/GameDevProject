@@ -24,12 +24,6 @@ namespace Inception.GameClasses.Bullet
             bulletRectangle = new Rectangle((int)bulletPosition.X, (int)bulletPosition.Y, 16, 16);
         }
 
-        //public void LoadContent(ContentManager content)
-        //{
-        //    bulletTexture = content.Load<Texture2D>("images\\bullet");
-        //    bulletSoundEffect = content.Load<SoundEffect>("audio\\shootSound");
-        //}
-
         public void Update()
         {
             bulletPosition.X += bulletSpeed;
@@ -47,7 +41,7 @@ namespace Inception.GameClasses.Bullet
             bulletSoundEffect.Play();
         }
 
-        public Boolean CheckCollision(List<Rectangle> colliders)
+        public bool CheckCollision(List<Rectangle> colliders)
         {
             foreach (var rectangle in colliders)
             {
