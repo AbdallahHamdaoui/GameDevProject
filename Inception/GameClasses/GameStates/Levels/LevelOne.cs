@@ -1,4 +1,5 @@
-﻿using Inception.NewFolder.GameStates.Menu_s;
+﻿using Inception.GameClasses.Bullet;
+using Inception.GameClasses.GameStates.Menu_s;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Audio;
 using Microsoft.Xna.Framework.Content;
@@ -8,7 +9,7 @@ using System.Collections.Generic;
 using System.Text;
 using TiledSharp;
 
-namespace Inception.NewFolder.GameStates.Levels
+namespace Inception.GameClasses.GameStates.Levels
 {
     public class LevelOne : GameState
     {
@@ -36,7 +37,7 @@ namespace Inception.NewFolder.GameStates.Levels
         private List<Rectangle> enemyPathways;
 
         // Bullet      
-        private Texture2D bulletTexture;
+        private BulletManager bulletManager;
 
         // Coin
         private List<Coin> coins;
@@ -57,6 +58,7 @@ namespace Inception.NewFolder.GameStates.Levels
             enemies = new List<Enemy>();
             colliders = new List<Rectangle>();
             enemyPathways = new List<Rectangle>();
+            bulletManager = new BulletManager();
         }
 
         public override void Draw(SpriteBatch spriteBatch, GameTime gameTime)
@@ -76,11 +78,7 @@ namespace Inception.NewFolder.GameStates.Levels
                 hero.Draw(spriteBatch, SpriteEffects.None, gameTime);
             }
 
-            //Bullet
-            foreach (var bullet in hero.bulletList)
-            {
-                bullet.Draw(spriteBatch);
-            }
+            bulletManager.Draw(spriteBatch);
 
             //Coin
             foreach (var coin in coins)
@@ -160,7 +158,7 @@ namespace Inception.NewFolder.GameStates.Levels
             enemies.Add(enemy3);
 
             // Bullet
-            bulletTexture = content.Load<Texture2D>("images\\bullet");            
+            bulletManager.LoadContent(content);
         }
 
         public override void UnloadContent()
@@ -176,7 +174,7 @@ namespace Inception.NewFolder.GameStates.Levels
             {
                 var initialPosition = hero.heroMovement;
                 hero.heroIsFalling = true;
-                hero.Update(gameTime, bulletTexture, heroSpeed);
+                hero.Update(gameTime, heroSpeed);
 
                 if (heroEndPoint.Intersects(hero.heroRectangle))
                 {
@@ -195,27 +193,6 @@ namespace Inception.NewFolder.GameStates.Levels
                         hero.heroIsFalling = !rectangle.Intersects(hero.heroJumpPoint);
                     }
 
-                    foreach (var bullet in hero.bulletList.ToArray())
-                    {
-                        if (bullet.bulletRectangle.Intersects(rectangle))
-                        {
-                            hero.bulletList.Remove(bullet);
-                            break;
-                        }
-
-                        foreach (var enemy in enemies.ToArray())
-                        {
-                            if (enemy.enemyRectangle.Intersects(bullet.bulletRectangle))
-                            {
-                                enemies.Remove(enemy);
-                                hero.bulletList.Remove(bullet);
-                                enemy.PlayEnemyDeathSound();
-                                heroPoints++;
-                                break;
-                            }
-                        }
-                    }
-
                     foreach (var coin in coins.ToArray())
                     {
                         if (coin.coinRectangle.Intersects(hero.heroRectangle))
@@ -229,9 +206,12 @@ namespace Inception.NewFolder.GameStates.Levels
 
                 hero.Jump();
 
-                foreach (var bullet in hero.bulletList)
+                bulletManager.Update(gameTime, hero);
+                bulletManager.CheckCollision(colliders);
+
+                if (bulletManager.CheckEnemyCollision(enemies))
                 {
-                    bullet.Update();
+                    heroPoints++;
                 }
 
                 foreach (var enemy in enemies)

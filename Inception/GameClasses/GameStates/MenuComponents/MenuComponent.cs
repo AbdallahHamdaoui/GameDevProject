@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Inception.NewFolder.GameStates.MenuComponents
+namespace Inception.GameClasses.GameStates.MenuComponents
 {
     public abstract class MenuComponent
     {

@@ -6,7 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Inception.NewFolder
+namespace Inception.GameClasses
 {
     public class Coin
     {

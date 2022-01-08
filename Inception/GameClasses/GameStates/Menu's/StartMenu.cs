@@ -1,5 +1,5 @@
-﻿using Inception.NewFolder.GameStates.Levels;
-using Inception.NewFolder.GameStates.MenuComponents;
+﻿using Inception.GameClasses.GameStates.Levels;
+using Inception.GameClasses.GameStates.MenuComponents;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
@@ -7,18 +7,17 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Inception.NewFolder.GameStates.Menu_s
+namespace Inception.GameClasses.GameStates.Menu_s
 {
-    public class GameOverMenu : GameState
+    public class StartMenu : GameState
     {
         private Texture2D _background;
         private List<MenuComponent> _components;
 
-        public GameOverMenu(Game1 game, GraphicsDevice graphicsDevice, GraphicsDeviceManager graphicsDeviceManager)
+        public StartMenu(Game1 game, GraphicsDevice graphicsDevice, GraphicsDeviceManager graphicsDeviceManager)
             : base(game, graphicsDevice, graphicsDeviceManager)
         {
         }
-
         public override void Draw(SpriteBatch spriteBatch, GameTime gameTime)
         {
             spriteBatch.Begin();
@@ -34,7 +33,7 @@ namespace Inception.NewFolder.GameStates.Menu_s
 
         public override void Initialize()
         {
-            Game.IsMouseVisible = true;
+            //Game.IsMouseVisible = true;
         }
 
         public override void LoadContent(ContentManager content)
@@ -43,15 +42,15 @@ namespace Inception.NewFolder.GameStates.Menu_s
             Texture2D bttnTexture = content.Load<Texture2D>("ui/StoneButton");
             SpriteFont bttnFont = content.Load<SpriteFont>("Fonts/Algerian");
 
-            Button restartBttn = new Button(bttnTexture, bttnFont, "Restart Game", new Vector2(350, 300));
-            restartBttn.Click += RestartBttn_Click;
+            Button startBttn = new Button(bttnTexture, bttnFont, "Start Game", new Vector2(350, 300));
+            startBttn.Click += StartBttn_Click;
 
             Button quitBttn = new Button(bttnTexture, bttnFont, "Quit Game", new Vector2(350, 450));
             quitBttn.Click += QuitBttn_Click;
 
             _components = new List<MenuComponent>()
             {
-                restartBttn,
+                startBttn,
                 quitBttn
             };
         }
@@ -68,7 +67,7 @@ namespace Inception.NewFolder.GameStates.Menu_s
             }
         }
 
-        private void RestartBttn_Click(object sender, EventArgs e)
+        private void StartBttn_Click(object sender, EventArgs e)
         {
             Console.WriteLine("Start Game");
             GameState FirstLevel = new LevelOne(Game, _graphicsDevice, _graphicsDeviceManager);

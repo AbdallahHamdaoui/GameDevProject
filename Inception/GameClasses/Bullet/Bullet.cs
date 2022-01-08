@@ -6,7 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Inception.NewFolder
+namespace Inception.GameClasses.Bullet
 {
     public class Bullet
     {
@@ -45,6 +45,30 @@ namespace Inception.NewFolder
         public void PlayShootSound()
         {
             bulletSoundEffect.Play();
+        }
+
+        public Boolean CheckCollision(List<Rectangle> colliders)
+        {
+            foreach (var rectangle in colliders)
+            {
+                if (bulletRectangle.Intersects(rectangle))
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        public Enemy CheckEnemyCollision(List<Enemy> enemies)
+        {
+            foreach (var enemy in enemies)
+            {
+                if (bulletRectangle.Intersects(enemy.enemyRectangle))
+                {
+                    return enemy;
+                }
+            }
+            return null;
         }
     }
 }

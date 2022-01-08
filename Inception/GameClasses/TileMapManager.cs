@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Text;
 using TiledSharp;
 
-namespace Inception.NewFolder
+namespace Inception.GameClasses
 {
     public class TileMapManager
     {

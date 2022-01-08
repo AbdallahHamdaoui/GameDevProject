@@ -5,7 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Inception.NewFolder.GameStates
+namespace Inception.GameClasses.GameStates
 {
     public class GameStateManager
     {

@@ -1,4 +1,5 @@
-﻿using Microsoft.Xna.Framework;
+﻿using Inception.GameClasses.Bullet;
+using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Audio;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
@@ -7,7 +8,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Inception.NewFolder
+namespace Inception.GameClasses
 {
     public class Hero
     {
@@ -26,17 +27,11 @@ namespace Inception.NewFolder
         public float heroFallSpeed = 1f;
         public float heroJumpSpeed;
 
-        private Bullet bullet;
-        private float timeBetweenBullets = 2;
-        private SoundEffect bulletSoundEffect;
-        public List<Bullet> bulletList;
-
         public Hero(Vector2 heroStartPoint)
         {
             heroMovement = heroStartPoint;
             heroRectangle = new Rectangle((int)heroMovement.X, (int)(heroMovement.Y - 1), 32, 20);
             heroJumpPoint = new Rectangle((int)(heroMovement.X + 8), (int)(heroMovement.Y + 40), 32, 1);
-            bulletList = new List<Bullet>();
             heroIdleAnimation = new Animation[4];
             heroRunAnimation = new Animation[4];
         }
@@ -49,34 +44,12 @@ namespace Inception.NewFolder
             heroRunAnimation[0] = new Animation(heroRunTexture, 0, 32, 32);
             heroIdleCurrentAnimation = heroIdleAnimation[0];
             heroRunCurrentAnimation = heroIdleCurrentAnimation;
-            bulletSoundEffect = content.Load<SoundEffect>("audio\\shootSound");
         }
 
-        public void Update(GameTime gameTime, Texture2D bulletTexture, float moveSpeed)
+        public void Update(GameTime gameTime, float moveSpeed)
         {
             heroRunCurrentAnimation = heroIdleCurrentAnimation;
             heroMovement.Y += heroFallSpeed;
-
-            if (Keyboard.GetState().IsKeyDown(Keys.Enter) && timeBetweenBullets > 1)
-            {
-                bulletSoundEffect.Play();
-
-                if (!heroIsFacingLeft)
-                {
-                    bullet = new Bullet(bulletTexture, 2, new Vector2(heroMovement.X + 16, heroMovement.Y + 15));
-                }
-                else
-                {
-                    bullet = new Bullet(bulletTexture, -2, new Vector2(heroMovement.X, heroMovement.Y + 15));
-                }
-
-                bulletList.Add(bullet);
-                timeBetweenBullets = 0;
-            }
-            else
-            {
-                timeBetweenBullets += (float)gameTime.ElapsedGameTime.TotalSeconds;
-            }
 
             if (Keyboard.GetState().IsKeyDown(Keys.Q))
             {

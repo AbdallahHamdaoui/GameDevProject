@@ -1,6 +1,6 @@
-﻿using Inception.NewFolder.GameStates;
-using Inception.NewFolder.GameStates.Levels;
-using Inception.NewFolder.GameStates.Menu_s;
+﻿using Inception.GameClasses.GameStates;
+using Inception.GameClasses.GameStates.Levels;
+using Inception.GameClasses.GameStates.Menu_s;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Audio;
 using Microsoft.Xna.Framework.Content;
@@ -9,7 +9,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Inception.NewFolder
+namespace Inception.GameClasses
 {
     public class Enemy
     {

@@ -1,6 +1,6 @@
-﻿using Inception.NewFolder;
-using Inception.NewFolder.GameStates;
-using Inception.NewFolder.GameStates.Menu_s;
+﻿using Inception.GameClasses;
+using Inception.GameClasses.GameStates;
+using Inception.GameClasses.GameStates.Menu_s;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Audio;
 using Microsoft.Xna.Framework.Graphics;
