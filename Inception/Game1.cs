@@ -20,15 +20,6 @@ namespace Inception
         public static int ScreenWidth;
         public static int ScreenHeight;
 
-        //// Enemy
-        //private Enemy enemy1;
-        //private Enemy enemy2;
-        //private Enemy enemy3;
-        //private Texture2D enemyRunTexture;
-        //private List<Enemy> enemies;
-        //private List<Rectangle> enemyPathways;
-        //private SoundEffect enemyDeathSoundEffect;
-
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
@@ -53,20 +44,6 @@ namespace Inception
 
             // TODO: use this.Content to load your game content here
 
-            //// Enemy
-            //enemyPathways = new List<Rectangle>();
-
-            //// Enenmy
-            //enemyDeathSoundEffect = Content.Load<SoundEffect>("audio\\deathSound");
-            //enemyRunTexture = Content.Load<Texture2D>("images\\enemyOneRun");
-            //enemies = new List<Enemy>();
-            //enemy1 = new Enemy(enemyRunTexture, enemyPathways[0], 1, _graphics);
-            //enemies.Add(enemy1);
-            //enemy2 = new Enemy(enemyRunTexture, enemyPathways[1], 1, _graphics);
-            //enemies.Add(enemy2);
-            //enemy3 = new Enemy(enemyRunTexture, enemyPathways[2], 1, _graphics);
-            //enemies.Add(enemy3);
-
             GameStateManager.Instance.SetContent(Content);
             GameState startMenu = new StartMenu(this, GraphicsDevice, _graphics);
             GameStateManager.Instance.AddScreen(startMenu);
@@ -86,14 +63,6 @@ namespace Inception
 
             // TODO: Add your update logic here
 
-            //if (!heroHasLost && !heroHasReached)
-            //{
-            //    foreach (var enemy in enemies)
-            //    {
-            //        enemy.Update(hero.heroRectangle);
-            //    }
-            //}
-
             GameStateManager.Instance.Update(gameTime);
 
             base.Update(gameTime);
@@ -104,15 +73,6 @@ namespace Inception
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
             // TODO: Add your drawing code here
-
-            //_spriteBatch.Begin();
-
-            //foreach (var enemy in enemies)
-            //{
-            //    enemy.Draw(_spriteBatch, gameTime);
-            //}
-
-            //_spriteBatch.End();
 
             GameStateManager.Instance.Draw(_spriteBatch, gameTime);
 

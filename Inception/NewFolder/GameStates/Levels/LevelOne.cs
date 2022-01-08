@@ -33,7 +33,6 @@ namespace Inception.NewFolder.GameStates.Levels
         private Enemy enemy3;
         private List<Enemy> enemies;
         private List<Rectangle> enemyPathways;
-        private SoundEffect enemyDeathSoundEffect;
 
         // Bullet      
         private Texture2D bulletTexture;
@@ -211,7 +210,7 @@ namespace Inception.NewFolder.GameStates.Levels
                             {
                                 enemies.Remove(enemy);
                                 hero.bulletList.Remove(bullet);
-                                //enemyDeathSoundEffect.Play();
+                                enemy.PlaySound();
                                 heroPoints++;
                                 break;
                             }

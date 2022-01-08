@@ -13,6 +13,7 @@ namespace Inception.NewFolder
     {
         private Texture2D enemyTexture;
         private Animation enemyCurrentAnimation;
+        private SoundEffect enemyDeathSoundEffect;
         private bool enemyIsFacingLeft = true;
 
         public float enemySpeed;
@@ -33,7 +34,7 @@ namespace Inception.NewFolder
 
         public void LoadContent(ContentManager content)
         {
-            //enemyDeathSoundEffect = content.Load<SoundEffect>("audio\\deathSound");
+            enemyDeathSoundEffect = content.Load<SoundEffect>("audio\\deathSound");
             enemyTexture = content.Load<Texture2D>("images\\enemyOneRun");
             enemyCurrentAnimation = new Animation(enemyTexture, 0, 32, 32);
         }
@@ -66,6 +67,11 @@ namespace Inception.NewFolder
             {
                 enemyCurrentAnimation.Draw(spriteBatch, enemyPosition, gameTime, SpriteEffects.FlipHorizontally, 100);
             }
-        } 
+        }
+
+        public void PlaySound()
+        {
+            enemyDeathSoundEffect.Play();
+        }
     }
 }
