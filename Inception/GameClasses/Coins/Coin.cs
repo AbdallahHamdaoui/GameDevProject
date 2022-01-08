@@ -6,7 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Inception.GameClasses
+namespace Inception.GameClasses.Coins
 {
     public class Coin
     {
@@ -15,8 +15,11 @@ namespace Inception.GameClasses
         private Rectangle coinSourceRectangle;
         public Rectangle coinRectangle;
 
-        public Coin(Vector2 coinPosition)
+        public Coin(Texture2D texture, SoundEffect soundEffect, Vector2 coinPosition)
         {
+            coinTexture = texture;
+            coinSoundEffect = soundEffect;
+
             Random r = new Random();
             int randomNumber = r.Next(0, 3);
 
@@ -24,18 +27,21 @@ namespace Inception.GameClasses
             coinRectangle = new Rectangle((int)coinPosition.X, (int)coinPosition.Y, 16, 16);
         }
 
-        public void LoadContent(ContentManager content)
-        {
-            coinTexture = content.Load<Texture2D>("images\\coin");
-            coinSoundEffect = content.Load<SoundEffect>("audio\\pointSound");
-        }
-
-        public void Draw(SpriteBatch spriteBatch, GameTime gameTime)
+        public void Draw(SpriteBatch spriteBatch)
         {
             spriteBatch.Draw(coinTexture, coinRectangle, coinSourceRectangle, Color.White);
         }
 
-        public void PlayCoinSound()
+        public bool CheckCollisionWithHero(Hero hero)
+        {
+            if (coinRectangle.Intersects(hero.heroRectangle))
+            {
+                return true;
+            }
+            return false;
+        }
+
+        public void PickupCoin()
         {
             coinSoundEffect.Play();
         }

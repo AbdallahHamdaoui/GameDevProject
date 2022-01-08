@@ -1,4 +1,5 @@
 ﻿using Inception.GameClasses.Bullet;
+using Inception.GameClasses.Coins;
 using Inception.GameClasses.Enemies;
 using Inception.GameClasses.GameStates.Menu_s;
 using Microsoft.Xna.Framework;
@@ -37,7 +38,7 @@ namespace Inception.GameClasses.GameStates.Levels
         private BulletManager bulletManager;
 
         // Coin
-        private List<Coin> coins;
+        private CoinManager coinManager;
 
         // Hitbox
         private Hitbox hitbox;
@@ -51,11 +52,11 @@ namespace Inception.GameClasses.GameStates.Levels
             hero = new Hero(new Vector2(heroStartPoint.X, heroStartPoint.Y));
             hitbox = new Hitbox(graphicsDeviceManager);
             heroCamera = new Camera(graphicsDeviceManager);
-            coins = new List<Coin>();
             enemyManager = new EnemyManager();
             colliders = new List<Rectangle>();
             enemyPathways = new List<Rectangle>();
             bulletManager = new BulletManager();
+            coinManager = new CoinManager();
         }
 
         public override void Draw(SpriteBatch spriteBatch, GameTime gameTime)
@@ -79,10 +80,7 @@ namespace Inception.GameClasses.GameStates.Levels
             bulletManager.Draw(spriteBatch);
 
             //Coin
-            foreach (var coin in coins)
-            {
-                coin.Draw(spriteBatch, gameTime);
-            }
+            coinManager.Draw(spriteBatch);
 
             //Enemy
             enemyManager.Draw(spriteBatch, gameTime);
@@ -134,9 +132,8 @@ namespace Inception.GameClasses.GameStates.Levels
                 }
                 else if (obj.Name == "coin")
                 {
-                    Coin coin = new Coin(new Vector2((int)obj.X, (int)obj.Y));
-                    coin.LoadContent(content);
-                    coins.Add(coin);
+                    coinManager.LoadContent(content);
+                    coinManager.SpawnCoin(new Vector2((int)obj.X, (int)obj.Y));
                 }
             }
 
@@ -177,15 +174,7 @@ namespace Inception.GameClasses.GameStates.Levels
                     hero.heroIsFalling = !rectangle.Intersects(hero.heroJumpPoint);
                 }
 
-                foreach (var coin in coins.ToArray())
-                {
-                    if (coin.coinRectangle.Intersects(hero.heroRectangle))
-                    {
-                        Score.getInstance().AddPoint();
-                        coin.PlayCoinSound();
-                        coins.Remove(coin);
-                    }
-                }
+                coinManager.CheckCollisionWithHero(hero);
             }
 
             hero.Jump();
