@@ -78,7 +78,7 @@ namespace Inception.GameClasses.Bullet
             }
         }
 
-        public Boolean CheckEnemyCollision(List<Enemy> enemies)
+        public bool CheckEnemyCollision(List<Enemy> enemies)
         {
             foreach (var bullet in bulletList)
             {

@@ -11,7 +11,6 @@ namespace Inception.GameClasses.Bullet
     public class Bullet
     {
         private Texture2D bulletTexture;
-        private SoundEffect bulletSoundEffect;
         private float bulletSpeed;
         public Rectangle bulletRectangle;
         public Vector2 bulletPosition;
@@ -34,11 +33,6 @@ namespace Inception.GameClasses.Bullet
         public void Draw(SpriteBatch spriteBatch)
         {
             spriteBatch.Draw(bulletTexture, bulletPosition, Color.White);
-        }
-
-        public void PlayShootSound()
-        {
-            bulletSoundEffect.Play();
         }
 
         public bool CheckCollision(List<Rectangle> colliders)

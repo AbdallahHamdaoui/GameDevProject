@@ -25,7 +25,7 @@ namespace Inception.GameClasses
 
         public Enemy(Rectangle enemyposition, float enemyspeed, GraphicsDeviceManager _graphics = null)
         {
-            enemySpeed = enemyspeed;
+            this.enemySpeed = enemyspeed;
             enemyPosition = new Vector2(enemyposition.X, enemyposition.Y);
             enemyRectangle = new Rectangle(enemyposition.X, enemyposition.Y, 32, 32);
             enemyPathway = enemyposition;
