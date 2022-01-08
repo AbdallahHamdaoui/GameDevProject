@@ -146,10 +146,8 @@ namespace Inception.NewFolder.GameStates.Levels
                     coins.Add(coin);
                 }
             }
-            // Enemy
             
-            //enemyDeathSoundEffect = content.Load<SoundEffect>("audio\\deathSound");
-
+            // Enemy
             enemy1 = new Enemy(enemyPathways[0], 1, _graphicsDeviceManager);
             enemy1.LoadContent(content);
             enemies.Add(enemy1);

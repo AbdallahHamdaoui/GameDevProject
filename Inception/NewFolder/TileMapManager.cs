@@ -9,7 +9,6 @@ namespace Inception.NewFolder
 {
     public class TileMapManager
     {
-        private SpriteBatch spriteBatch;
         TmxMap map;
         Texture2D tileset;
         int tilesetTilesWide;
@@ -18,7 +17,6 @@ namespace Inception.NewFolder
 
         public TileMapManager(TmxMap _map, Texture2D _tileset, int _tilsetTilesWide, int _tileWidth, int _tileHeight)
         {
-            //spriteBatch = _spriteBatch;
             map = _map;
             tileset = _tileset;
             tilesetTilesWide = _tilsetTilesWide;
