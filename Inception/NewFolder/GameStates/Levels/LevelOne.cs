@@ -1,4 +1,5 @@
-﻿using Microsoft.Xna.Framework;
+﻿using Inception.NewFolder.GameStates.Menu_s;
+using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Audio;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
@@ -171,7 +172,7 @@ namespace Inception.NewFolder.GameStates.Levels
         {
             heroCamera.Follow(hero, hitbox, tmxMap);
 
-            if (!heroHasLost && !heroHasReached)
+            if (!heroHasReached)
             {
                 var initialPosition = hero.heroMovement;
                 hero.heroIsFalling = true;
@@ -237,6 +238,16 @@ namespace Inception.NewFolder.GameStates.Levels
                 {
                     enemy.Update(hero.heroRectangle);
                 }
+            }
+            CheckHeroDeath();
+        }
+
+        private void CheckHeroDeath()
+        {
+            if (heroHasLost)
+            {
+                GameState gameOverMenu = new GameOverMenu(Game, _graphicsDevice, _graphicsDeviceManager);
+                GameStateManager.Instance.AddScreen(gameOverMenu);
             }
         }
     }
