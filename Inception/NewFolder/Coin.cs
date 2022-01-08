@@ -1,4 +1,5 @@
 ﻿using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Audio;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using System;
@@ -10,6 +11,7 @@ namespace Inception.NewFolder
     public class Coin
     {
         private Texture2D coinTexture;
+        private SoundEffect coinSoundEffect;
         private Rectangle coinSourceRectangle;
         public Rectangle coinRectangle;
 
@@ -25,12 +27,17 @@ namespace Inception.NewFolder
         public void LoadContent(ContentManager content)
         {
             coinTexture = content.Load<Texture2D>("images\\coin");
-            //coinSoundEffect = content.Load<SoundEffect>("audio\\pointSound");
+            coinSoundEffect = content.Load<SoundEffect>("audio\\pointSound");
         }
 
         public void Draw(SpriteBatch spriteBatch, GameTime gameTime)
         {
             spriteBatch.Draw(coinTexture, coinRectangle, coinSourceRectangle, Color.White);
+        }
+
+        public void PlaySound()
+        {
+            coinSoundEffect.Play();
         }
     }
 }

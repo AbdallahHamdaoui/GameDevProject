@@ -1,4 +1,5 @@
 ﻿using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using System;
 using System.Collections.Generic;
@@ -20,6 +21,11 @@ namespace Inception.NewFolder
             this.bulletPosition = bulletPosition;
             bulletRectangle = new Rectangle((int)bulletPosition.X, (int)bulletPosition.Y, 16, 16);
         }
+
+        //public void LoadContent(ContentManager content)
+        //{
+        //    bulletTexture = content.Load<Texture2D>("images\\bullet");
+        //}
 
         public void Update()
         {

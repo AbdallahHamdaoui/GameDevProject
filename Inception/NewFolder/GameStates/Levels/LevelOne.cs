@@ -40,7 +40,6 @@ namespace Inception.NewFolder.GameStates.Levels
 
         // Coin
         private List<Coin> coins;
-        private SoundEffect coinSoundEffect;
 
         // Hitbox
         private Hitbox hitbox;
@@ -224,7 +223,7 @@ namespace Inception.NewFolder.GameStates.Levels
                         if (coin.coinRectangle.Intersects(hero.heroRectangle))
                         {
                             heroPoints++;
-                            coinSoundEffect.Play();
+                            coin.PlaySound();
                             coins.Remove(coin);
                         }
                     }
