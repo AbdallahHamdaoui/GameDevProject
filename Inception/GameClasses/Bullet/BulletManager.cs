@@ -79,7 +79,7 @@ namespace Inception.GameClasses.Bullet
             }
         }
 
-        public bool CheckEnemyCollision(List<Enemy> enemies)
+        public void CheckEnemyCollision(List<Enemy> enemies)
         {
             foreach (var bullet in bulletList)
             {
@@ -89,10 +89,9 @@ namespace Inception.GameClasses.Bullet
                     bulletList.Remove(bullet);
                     enemies.Remove(enemy);
                     enemy.Dies();
-                    return true;
+                    Score.getInstance().AddPoint();
                 }
             }
-            return false;
         }
     }
 }

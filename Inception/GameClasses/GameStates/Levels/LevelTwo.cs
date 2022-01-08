@@ -23,7 +23,6 @@ namespace Inception.GameClasses.GameStates.Levels
         private Hero hero;
         private Rectangle heroStartPoint;
         private float heroSpeed = 3f;
-        private int heroPoints = 0;
         private Rectangle heroEndPoint;
         private SpriteFont heroHasWon;
         public static bool heroHasLost = false;
@@ -110,7 +109,6 @@ namespace Inception.GameClasses.GameStates.Levels
             heroHasReachedEnd = false;
             hitbox.Load(16, 5);
             hitbox.isEnabled = true;
-            heroPoints = 0;
             hero.LoadContent(content);
             //heroHasWon = Content.Load<SpriteFont>("WinScreen");
 
@@ -184,7 +182,7 @@ namespace Inception.GameClasses.GameStates.Levels
                 {
                     if (coin.coinRectangle.Intersects(hero.heroRectangle))
                     {
-                        heroPoints++;
+                        Score.getInstance().AddPoint();
                         coin.PlayCoinSound();
                         coins.Remove(coin);
                     }
@@ -195,11 +193,7 @@ namespace Inception.GameClasses.GameStates.Levels
 
             bulletManager.Update(gameTime, hero);
             bulletManager.CheckCollision(colliders);
-
-            if (bulletManager.CheckEnemyCollision(enemyManager.enemies))
-            {
-                heroPoints++;
-            }
+            bulletManager.CheckEnemyCollision(enemyManager.enemies);
 
             enemyManager.Update(gameTime, hero);
 
@@ -216,6 +210,7 @@ namespace Inception.GameClasses.GameStates.Levels
         {
             if (heroHasLost)
             {
+                Score.getInstance().ResetPoints();
                 GameState gameOverMenu = new GameOverMenu(Game, _graphicsDevice, _graphicsDeviceManager);
                 GameStateManager.Instance.AddScreen(gameOverMenu);
             }
