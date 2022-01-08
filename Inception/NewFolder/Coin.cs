@@ -35,7 +35,7 @@ namespace Inception.NewFolder
             spriteBatch.Draw(coinTexture, coinRectangle, coinSourceRectangle, Color.White);
         }
 
-        public void PlaySound()
+        public void PlayCoinSound()
         {
             coinSoundEffect.Play();
         }

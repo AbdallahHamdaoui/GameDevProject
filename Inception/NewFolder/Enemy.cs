@@ -24,7 +24,6 @@ namespace Inception.NewFolder
         public Enemy(Rectangle enemyposition, float enemyspeed, GraphicsDeviceManager _graphics = null)
         {
             enemySpeed = enemyspeed;
-            
             enemyPosition = new Vector2(enemyposition.X, enemyposition.Y);
             enemyRectangle = new Rectangle(enemyposition.X, enemyposition.Y, 32, 32);
             enemyPathway = enemyposition;
@@ -69,7 +68,7 @@ namespace Inception.NewFolder
             }
         }
 
-        public void PlaySound()
+        public void PlayEnemyDeathSound()
         {
             enemyDeathSoundEffect.Play();
         }

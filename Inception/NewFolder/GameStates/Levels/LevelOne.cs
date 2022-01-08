@@ -208,7 +208,7 @@ namespace Inception.NewFolder.GameStates.Levels
                             {
                                 enemies.Remove(enemy);
                                 hero.bulletList.Remove(bullet);
-                                enemy.PlaySound();
+                                enemy.PlayEnemyDeathSound();
                                 heroPoints++;
                                 break;
                             }
@@ -220,7 +220,7 @@ namespace Inception.NewFolder.GameStates.Levels
                         if (coin.coinRectangle.Intersects(hero.heroRectangle))
                         {
                             heroPoints++;
-                            coin.PlaySound();
+                            coin.PlayCoinSound();
                             coins.Remove(coin);
                         }
                     }

@@ -1,4 +1,5 @@
 ﻿using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Audio;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using System;
@@ -10,6 +11,7 @@ namespace Inception.NewFolder
     public class Bullet
     {
         private Texture2D bulletTexture;
+        private SoundEffect bulletSoundEffect;
         private float bulletSpeed;
         public Rectangle bulletRectangle;
         public Vector2 bulletPosition;
@@ -25,6 +27,7 @@ namespace Inception.NewFolder
         //public void LoadContent(ContentManager content)
         //{
         //    bulletTexture = content.Load<Texture2D>("images\\bullet");
+        //    bulletSoundEffect = content.Load<SoundEffect>("audio\\shootSound");
         //}
 
         public void Update()
@@ -37,6 +40,11 @@ namespace Inception.NewFolder
         public void Draw(SpriteBatch spriteBatch)
         {
             spriteBatch.Draw(bulletTexture, bulletPosition, Color.White);
+        }
+
+        public void PlayShootSound()
+        {
+            bulletSoundEffect.Play();
         }
     }
 }
