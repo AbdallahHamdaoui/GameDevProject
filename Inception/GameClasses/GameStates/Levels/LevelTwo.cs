@@ -75,6 +75,7 @@ namespace Inception.GameClasses.GameStates.Levels
                 hero.Draw(spriteBatch, SpriteEffects.None, gameTime);
             }
 
+            //Score
             spriteBatch.DrawString(score, $"Points: {Score.getInstance().points}", new Vector2(0, 0), Color.White);
 
             //Bullet
