@@ -24,7 +24,6 @@ namespace Inception.GameClasses.GameStates.Menu_s
             spriteBatch.Begin();
             spriteBatch.Draw(_background, new Rectangle(0, 0, 1024, 640), Color.CornflowerBlue);
 
-            //spriteBatch.DrawString(font, "INCEPTION", new Vector2(300, 100), Color.White);
             spriteBatch.DrawString(font, "INCEPTION", new Vector2(350, 100), Color.White, 0, new Vector2(0, 0), 2f, SpriteEffects.None, 1);
 
             foreach (MenuComponent comp in _components)
@@ -37,7 +36,7 @@ namespace Inception.GameClasses.GameStates.Menu_s
 
         public override void Initialize()
         {
-            //Game.IsMouseVisible = true;
+            Game.IsMouseVisible = true;
         }
 
         public override void LoadContent(ContentManager content)
