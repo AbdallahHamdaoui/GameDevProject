@@ -25,7 +25,7 @@ namespace Inception.GameClasses.GameStates.Levels
         private Rectangle heroStartPoint;
         private float heroSpeed = 3f;
         private Rectangle heroEndPoint;
-        private SpriteFont heroHasWon;
+        private SpriteFont score;
         public static bool heroHasLost = false;
         private bool heroHasReachedEnd = false;
 
@@ -75,6 +75,8 @@ namespace Inception.GameClasses.GameStates.Levels
                 hero.Draw(spriteBatch, SpriteEffects.None, gameTime);
             }
 
+            spriteBatch.DrawString(score, $"Points: {Score.getInstance().points}", new Vector2(0, 0), Color.White);
+
             //Bullet
             bulletManager.Draw(spriteBatch);
 
@@ -108,7 +110,6 @@ namespace Inception.GameClasses.GameStates.Levels
             hitbox.Load(16, 5);
             hitbox.isEnabled = true;
             hero.LoadContent(content);
-            //heroHasWon = Content.Load<SpriteFont>("WinScreen");
 
             // Collisions
             foreach (var obj in tmxMap.ObjectGroups["Collisions"].Objects)
@@ -144,6 +145,9 @@ namespace Inception.GameClasses.GameStates.Levels
 
             // Bullet
             bulletManager.LoadContent(content);
+
+            //Score
+            score = content.Load<SpriteFont>("WinScreen");
         }
 
         public override void UnloadContent()
