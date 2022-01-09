@@ -239,11 +239,9 @@
   <object id="29" x="1136.25" y="454" width="31.875" height="73.875"/>
   <object id="30" x="864.25" y="486" width="15.6875" height="42"/>
   <object id="31" x="368.022" y="549.978" width="15.913" height="41.9565"/>
-  <object id="32" name="enemyPathway" x="417" y="162.182" width="478.667" height="24.4848"/>
-  <object id="33" name="enemyPathway" x="608.727" y="401.182" width="223.273" height="24.9091"/>
-  <object id="34" name="enemyPathway" x="33" y="497.667" width="271" height="24.6667"/>
-  <object id="35" name="enemyPathway" x="899.667" y="497.273" width="231" height="24.3939"/>
-  <object id="36" name="enemyPathway" x="1193.08" y="497.833" width="130.75" height="24"/>
+  <object id="32" name="enemyPathway" x="417" y="160.182" width="478.667" height="34.33"/>
+  <object id="33" name="enemyPathway" x="608.727" y="400.182" width="223.273" height="34.33"/>
+  <object id="36" name="enemyPathway" x="1193.08" y="495.833" width="130.75" height="34.33"/>
   <object id="37" name="coin" x="413.667" y="576.667"/>
   <object id="38" name="coin" x="431.455" y="465.273"/>
   <object id="39" name="coin" x="719.5" y="415.5"/>

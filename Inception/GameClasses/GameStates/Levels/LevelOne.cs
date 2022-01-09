@@ -64,7 +64,7 @@ namespace Inception.GameClasses.GameStates.Levels
         public override void Draw(SpriteBatch spriteBatch, GameTime gameTime)
         {
             spriteBatch.Begin(blendState: BlendState.AlphaBlend, sortMode: SpriteSortMode.Immediate, transformMatrix: heroCamera.Transform);
-            
+
             //Tileset
             tileMapManager.Draw(spriteBatch);
 
@@ -79,7 +79,7 @@ namespace Inception.GameClasses.GameStates.Levels
             }
 
             //Score
-            spriteBatch.DrawString(score, $"Points: {Score.getInstance().points}", new Vector2(750, 0), Color.White);
+            spriteBatch.DrawString(score, $"Points: {Score.getInstance().points}", new Vector2(heroCamera.CameraPos.X, 0), Color.White);
 
             //Bullet
             bulletManager.Draw(spriteBatch);
@@ -143,9 +143,9 @@ namespace Inception.GameClasses.GameStates.Levels
 
             // Enemy
             enemyManager.LoadContent(content);
-            enemyManager.SpawnEnemy(enemyPathways[0], _graphicsDeviceManager);
-            enemyManager.SpawnEnemy(enemyPathways[1], _graphicsDeviceManager);
-            enemyManager.SpawnEnemy(enemyPathways[2], _graphicsDeviceManager);
+            enemyManager.SpawnEnemy("basic", enemyPathways[0], _graphicsDeviceManager);
+            enemyManager.SpawnEnemy("fast", enemyPathways[1], _graphicsDeviceManager);
+            enemyManager.SpawnEnemy("trap", enemyPathways[2], _graphicsDeviceManager);
 
             // Bullet
             bulletManager.LoadContent(content);

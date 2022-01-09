@@ -7,21 +7,25 @@
     <File>D:/School/TweedeJaar/Game Development/21-22/GameDevProject/Inception/Content/audio/deathSound.wav</File>
     <File>D:/School/TweedeJaar/Game Development/21-22/GameDevProject/Inception/Content/audio/pointSound.wav</File>
     <File>D:/School/TweedeJaar/Game Development/21-22/GameDevProject/Inception/Content/audio/shootSound.wav</File>
+    <File>D:/School/TweedeJaar/Game Development/21-22/GameDevProject/Inception/Content/background/menuBackground.png</File>
+    <File>D:/School/TweedeJaar/Game Development/21-22/GameDevProject/Inception/Content/background/tileset.png</File>
+    <File>D:/School/TweedeJaar/Game Development/21-22/GameDevProject/Inception/Content/fonts/Algerian.spritefont</File>
     <File>D:/School/TweedeJaar/Game Development/21-22/GameDevProject/Inception/Content/images/bullet.png</File>
     <File>D:/School/TweedeJaar/Game Development/21-22/GameDevProject/Inception/Content/images/coin.png</File>
     <File>D:/School/TweedeJaar/Game Development/21-22/GameDevProject/Inception/Content/images/enemyOneRun.png</File>
+    <File>D:/School/TweedeJaar/Game Development/21-22/GameDevProject/Inception/Content/images/enemyThreeIdle.png</File>
+    <File>D:/School/TweedeJaar/Game Development/21-22/GameDevProject/Inception/Content/images/enemyTwoRun.png</File>
     <File>D:/School/TweedeJaar/Game Development/21-22/GameDevProject/Inception/Content/images/heroFall.png</File>
     <File>D:/School/TweedeJaar/Game Development/21-22/GameDevProject/Inception/Content/images/heroHurt.png</File>
     <File>D:/School/TweedeJaar/Game Development/21-22/GameDevProject/Inception/Content/images/heroIdle.png</File>
     <File>D:/School/TweedeJaar/Game Development/21-22/GameDevProject/Inception/Content/images/heroJump.png</File>
     <File>D:/School/TweedeJaar/Game Development/21-22/GameDevProject/Inception/Content/images/heroRun.png</File>
-    <File>D:/School/TweedeJaar/Game Development/21-22/GameDevProject/Inception/Content/WinScreen.spritefont</File>
-    <File>D:/School/TweedeJaar/Game Development/21-22/GameDevProject/Inception/Content/background/menuBackground.png</File>
-    <File>D:/School/TweedeJaar/Game Development/21-22/GameDevProject/Inception/Content/background/tileset.png</File>
-    <File>D:/School/TweedeJaar/Game Development/21-22/GameDevProject/Inception/Content/fonts/Algerian.spritefont</File>
     <File>D:/School/TweedeJaar/Game Development/21-22/GameDevProject/Inception/Content/ui/StoneButton.png</File>
+    <File>D:/School/TweedeJaar/Game Development/21-22/GameDevProject/Inception/Content/WinScreen.spritefont</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

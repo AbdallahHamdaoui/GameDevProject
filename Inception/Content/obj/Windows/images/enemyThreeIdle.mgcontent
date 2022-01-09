@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>C:/Users/Abdallah/Desktop/GameDevProject/Inception/Content/images/coin.png</SourceFile>
-  <SourceTime>2022-01-09T16:08:45.4433152+01:00</SourceTime>
-  <DestFile>C:/Users/Abdallah/Desktop/GameDevProject/Inception/Content/bin/Windows/images/coin.xnb</DestFile>
-  <DestTime>2022-01-09T16:31:37.192296+01:00</DestTime>
+  <SourceFile>C:/Users/Abdallah/Desktop/GameDevProject/Inception/Content/images/enemyThreeIdle.png</SourceFile>
+  <SourceTime>2022-01-09T16:24:42.4345232+01:00</SourceTime>
+  <DestFile>C:/Users/Abdallah/Desktop/GameDevProject/Inception/Content/bin/Windows/images/enemyThreeIdle.xnb</DestFile>
+  <DestTime>2022-01-09T16:31:37.2062566+01:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2020-08-10T18:17:54+02:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

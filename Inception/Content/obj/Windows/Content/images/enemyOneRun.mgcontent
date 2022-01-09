@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <SourceFile>D:/School/TweedeJaar/Game Development/21-22/GameDevProject/Inception/Content/images/enemyOneRun.png</SourceFile>
-  <SourceTime>2021-11-29T15:41:20+01:00</SourceTime>
+  <SourceTime>2022-01-09T16:08:46+01:00</SourceTime>
   <DestFile>D:/School/TweedeJaar/Game Development/21-22/GameDevProject/Inception/Content/bin/Windows/Content/images/enemyOneRun.xnb</DestFile>
-  <DestTime>2022-01-07T16:37:03.9351553+01:00</DestTime>
+  <DestTime>2022-01-09T16:59:10.0235278+01:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2020-08-10T16:17:54+02:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

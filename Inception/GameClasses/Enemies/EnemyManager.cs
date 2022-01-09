@@ -11,18 +11,17 @@ namespace Inception.GameClasses.Enemies
     public class EnemyManager
     {
         public List<Enemy> enemies;
-        private Texture2D enemyTexture;
-        private SoundEffect enemyDeathSoundEffect;
+        private EnemyFactory enemyFactory;
 
         public EnemyManager()
         {
             enemies = new List<Enemy>();
+            enemyFactory = new EnemyFactory();
         }
 
         public void LoadContent(ContentManager content)
         {
-            enemyDeathSoundEffect = content.Load<SoundEffect>("audio\\deathSound");
-            enemyTexture = content.Load<Texture2D>("images\\enemyOneRun");
+            enemyFactory.LoadContent(content);
         }
 
         public void Update(GameTime gameTime, Hero hero)
@@ -43,7 +42,7 @@ namespace Inception.GameClasses.Enemies
 
         public bool CheckCollisionWithHero(Hero hero)
         {
-            foreach(var enemy in enemies)
+            foreach (var enemy in enemies)
             {
                 if (enemy.CheckCollisionWithHero(hero))
                 {
@@ -53,10 +52,9 @@ namespace Inception.GameClasses.Enemies
             return false;
         }
 
-        public void SpawnEnemy(Rectangle position, GraphicsDeviceManager graphics)
+        public void SpawnEnemy(string type, Rectangle position, GraphicsDeviceManager graphics)
         {
-            Enemy enemy = new Enemy(enemyTexture, enemyDeathSoundEffect, position, 1, graphics);
-            enemies.Add(enemy);
+            enemies.Add(enemyFactory.CreateEnemy(type, position, graphics));
         }
     }
 }

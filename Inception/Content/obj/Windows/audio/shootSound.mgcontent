@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/Arne_/Downloads/Inception/Inception/Inception/Content/audio/shootSound.wav</SourceFile>
-  <SourceTime>2021-11-29T15:41:18+01:00</SourceTime>
-  <DestFile>C:/Users/Arne_/Downloads/Inception/Inception/Inception/Content/bin/Windows/audio/shootSound.xnb</DestFile>
-  <DestTime>2022-01-07T16:31:12.6514286+01:00</DestTime>
+<PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SourceFile>C:/Users/Abdallah/Desktop/GameDevProject/Inception/Content/audio/shootSound.wav</SourceFile>
+  <SourceTime>2022-01-09T16:08:43.5865572+01:00</SourceTime>
+  <DestFile>C:/Users/Abdallah/Desktop/GameDevProject/Inception/Content/bin/Windows/audio/shootSound.xnb</DestFile>
+  <DestTime>2022-01-09T16:31:36.0085358+01:00</DestTime>
   <Importer>WavImporter</Importer>
-  <ImporterTime>2017-03-01T16:05:36+01:00</ImporterTime>
+  <ImporterTime>2020-08-10T18:17:54+02:00</ImporterTime>
   <Processor>SoundEffectProcessor</Processor>
-  <ProcessorTime>2017-03-01T16:05:36+01:00</ProcessorTime>
+  <ProcessorTime>2020-08-10T18:17:54+02:00</ProcessorTime>
   <Parameters>
     <Key>Quality</Key>
     <Value>Best</Value>

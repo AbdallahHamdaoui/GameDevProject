@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/Arne_/Downloads/Inception/Inception/Inception/Content/images/heroJump.png</SourceFile>
-  <SourceTime>2021-12-12T20:42:44+01:00</SourceTime>
-  <DestFile>C:/Users/Arne_/Downloads/Inception/Inception/Inception/Content/bin/Windows/images/heroJump.xnb</DestFile>
-  <DestTime>2022-01-07T16:31:12.7724279+01:00</DestTime>
+<PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SourceFile>C:/Users/Abdallah/Desktop/GameDevProject/Inception/Content/images/heroJump.png</SourceFile>
+  <SourceTime>2022-01-09T16:08:45.5198566+01:00</SourceTime>
+  <DestFile>C:/Users/Abdallah/Desktop/GameDevProject/Inception/Content/bin/Windows/images/heroJump.xnb</DestFile>
+  <DestTime>2022-01-09T16:31:37.2364524+01:00</DestTime>
   <Importer>TextureImporter</Importer>
-  <ImporterTime>2017-03-01T16:05:36+01:00</ImporterTime>
+  <ImporterTime>2020-08-10T18:17:54+02:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
-  <ProcessorTime>2017-03-01T16:05:36+01:00</ProcessorTime>
+  <ProcessorTime>2020-08-10T18:17:54+02:00</ProcessorTime>
   <Parameters>
     <Key>ColorKeyColor</Key>
     <Value>255,0,255,255</Value>

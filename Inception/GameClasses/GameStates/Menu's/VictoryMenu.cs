@@ -74,6 +74,7 @@ namespace Inception.GameClasses.GameStates.Menu_s
         private void PlayAgainBttn_Click(object sender, EventArgs e)
         {
             Console.WriteLine("Start Game");
+            Score.getInstance().ResetPoints();
             GameState FirstLevel = new LevelOne(Game, _graphicsDevice, _graphicsDeviceManager);
             GameStateManager.Instance.ChangeScreen(FirstLevel);
         }

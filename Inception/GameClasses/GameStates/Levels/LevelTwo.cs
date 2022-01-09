@@ -48,7 +48,7 @@ namespace Inception.GameClasses.GameStates.Levels
         private SpriteFont score;
 
         public LevelTwo(Game1 game, GraphicsDevice graphicsDevice, GraphicsDeviceManager graphicsDeviceManager)
-            : base(game, graphicsDevice, graphicsDeviceManager) 
+            : base(game, graphicsDevice, graphicsDeviceManager)
         {
             hero = new Hero(new Vector2(heroStartPoint.X, heroStartPoint.Y));
             hitbox = new Hitbox(graphicsDeviceManager);
@@ -78,7 +78,7 @@ namespace Inception.GameClasses.GameStates.Levels
             }
 
             //Score
-            spriteBatch.DrawString(score, $"Points: {Score.getInstance().points}", new Vector2(0, 0), Color.White);
+            spriteBatch.DrawString(score, $"Points: {Score.getInstance().points}", new Vector2(heroCamera.CameraPos.X, 0), Color.White);
 
             //Bullet
             bulletManager.Draw(spriteBatch);
@@ -142,9 +142,9 @@ namespace Inception.GameClasses.GameStates.Levels
 
             // Enemy
             enemyManager.LoadContent(content);
-            enemyManager.SpawnEnemy(enemyPathways[0], _graphicsDeviceManager);
-            enemyManager.SpawnEnemy(enemyPathways[1], _graphicsDeviceManager);
-            enemyManager.SpawnEnemy(enemyPathways[2], _graphicsDeviceManager);
+            enemyManager.SpawnEnemy("basic", enemyPathways[0], _graphicsDeviceManager);
+            enemyManager.SpawnEnemy("fast", enemyPathways[1], _graphicsDeviceManager);
+            enemyManager.SpawnEnemy("trap", enemyPathways[2], _graphicsDeviceManager);
 
             // Bullet
             bulletManager.LoadContent(content);

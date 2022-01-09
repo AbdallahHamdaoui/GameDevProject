@@ -227,9 +227,9 @@
   <object id="17" x="464.03" y="486.009" width="31.8182" height="74.1729"/>
   <object id="20" name="startPoint" x="49.1705" y="226.216" width="29.6364" height="29.9091"/>
   <object id="22" name="endPoint" x="1457.06" y="290.031" width="29.8722" height="30.0284"/>
-  <object id="28" name="enemyPathway" x="529.227" y="416.803" width="318.818" height="27.6667"/>
-  <object id="29" name="enemyPathway" x="913.119" y="484.136" width="350.957" height="25.8939"/>
-  <object id="30" name="enemyPathway" x="1344.94" y="292.104" width="95.0625" height="27.4429"/>
+  <object id="28" name="enemyPathway" x="529.305" y="415.996" width="318.818" height="34.3334"/>
+  <object id="29" name="enemyPathway" x="913.293" y="479.962" width="350.957" height="34.33"/>
+  <object id="30" name="enemyPathway" x="1344.94" y="288.104" width="95.0625" height="34.33"/>
   <object id="31" name="coin" x="215.917" y="544.833"/>
   <object id="32" name="coin" x="360" y="545.25"/>
   <object id="33" name="coin" x="408.125" y="224.875"/>

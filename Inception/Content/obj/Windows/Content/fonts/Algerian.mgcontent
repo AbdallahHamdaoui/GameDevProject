@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <SourceFile>D:/School/TweedeJaar/Game Development/21-22/GameDevProject/Inception/Content/fonts/Algerian.spritefont</SourceFile>
-  <SourceTime>2021-09-04T20:41:42.1228857+02:00</SourceTime>
+  <SourceTime>2022-01-09T16:08:46+01:00</SourceTime>
   <DestFile>D:/School/TweedeJaar/Game Development/21-22/GameDevProject/Inception/Content/bin/Windows/Content/fonts/Algerian.xnb</DestFile>
-  <DestTime>2022-01-07T16:37:05.0951535+01:00</DestTime>
+  <DestTime>2022-01-09T16:59:09.9595292+01:00</DestTime>
   <Importer>FontDescriptionImporter</Importer>
   <ImporterTime>2020-08-10T16:17:54+02:00</ImporterTime>
   <Processor>FontDescriptionProcessor</Processor>
