@@ -25,7 +25,6 @@ namespace Inception.GameClasses.GameStates.Levels
         private Rectangle heroStartPoint;
         private float heroSpeed = 3f;
         private Rectangle heroEndPoint;
-        private SpriteFont score;
         public static bool heroHasLost = false;
         private bool heroHasReachedEnd = false;
 
@@ -44,6 +43,9 @@ namespace Inception.GameClasses.GameStates.Levels
 
         // Camera
         private Camera heroCamera;
+
+        //Score
+        private SpriteFont score;
 
         public LevelTwo(Game1 game, GraphicsDevice graphicsDevice, GraphicsDeviceManager graphicsDeviceManager)
             : base(game, graphicsDevice, graphicsDeviceManager) 
